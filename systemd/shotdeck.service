@@ -1,0 +1,24 @@
+[Unit]
+Description=Shotdeck application service
+After=network-online.target bluetooth.target
+Wants=network-online.target
+BindsTo=bluetooth.target
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/default/shotdeck
+WorkingDirectory=/opt/shotdeck/current
+ExecStartPre=/usr/bin/test -x /opt/shotdeck/current/shotdeck
+ExecStart=/opt/shotdeck/current/shotdeck
+Restart=on-failure
+RestartSec=2
+TimeoutStartSec=20
+TimeoutStopSec=20
+MemoryMax=336M
+User=root
+Group=root
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

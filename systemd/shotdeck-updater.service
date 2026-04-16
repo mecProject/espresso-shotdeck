@@ -1,0 +1,14 @@
+[Unit]
+Description=Shotdeck updater
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/etc/shotdeck/updater.json
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+WorkingDirectory=/opt/shotdeck
+ExecStart=/opt/shotdeck/updater-venv/bin/shotdeck-updater --config /etc/shotdeck/updater.json unattended
+StandardOutput=journal
+StandardError=journal

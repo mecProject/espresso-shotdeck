@@ -1,0 +1,28 @@
+{
+  "product": "shotdeck",
+  "install_root": "/opt/shotdeck",
+  "log_file": "/var/log/shotdeck/updater.log",
+  "manifest_url": "https://updates.example.com/metadata/shotdeck-stable.json",
+  "channel": "stable",
+  "policy": "auto-apply",
+  "service_name": "shotdeck",
+  "public_key_path": "/etc/shotdeck/update-signing-key.pem",
+  "lock_path": "/run/lock/shotdeck-updater.lock",
+  "request_timeout_seconds": 60,
+  "retained_releases": 2,
+  "identity": {
+    "include_cpu_serial": true,
+    "include_mac_addresses": true,
+    "include_machine_id": true,
+    "interface_allowlist": [],
+    "interface_denylist": ["lo"],
+    "expose_raw_identifiers": false,
+    "hardware_group_override": null
+  },
+  "hooks": {
+    "pre_install": [],
+    "post_install": [],
+    "rollback": [],
+    "health_check": []
+  }
+}

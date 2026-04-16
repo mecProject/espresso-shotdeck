@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Shotdeck updater periodically
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=30min
+RandomizedDelaySec=5min
+Persistent=true
+Unit=shotdeck-updater.service
+
+[Install]
+WantedBy=timers.target

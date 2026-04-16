@@ -1,0 +1,33 @@
+name: Private Build And Publish Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        required: true
+        description: Release version
+      channel:
+        required: true
+        description: Rollout channel
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build Nuitka artifact
+        run: bash scripts/build_nuitka.sh
+      - name: Package public release payload
+        env:
+          PRIVATE_SIGNING_KEY: ${{ secrets.SHOTDECK_UPDATE_SIGNING_KEY }}
+        run: |
+          printf '%s\n' "$PRIVATE_SIGNING_KEY" > /tmp/shotdeck-signing-key.pem
+          python3 scripts/prepare_update_release.py \
+            --version "${{ inputs.version }}" \
+            --channel "${{ inputs.channel }}" \
+            --base-url "https://updates.example.com" \
+            --output-dir out/public-release \
+            --private-key /tmp/shotdeck-signing-key.pem
+      - name: Publish safe artifacts to the public repo
+        run: |
+          echo "Push out/public-release/artifacts and out/public-release/metadata to the public host here."

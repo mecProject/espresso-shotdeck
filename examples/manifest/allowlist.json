@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "product": "shotdeck",
+  "updated_at": "2026-04-15T12:00:00Z",
+  "devices": [
+    {
+      "fingerprint": "0fcb1a1c5a0beae95b938fc1cde3914f6a3d0ec6520be77418d9a37d4782744d",
+      "short_id": "0fcb1a1c5a0b",
+      "channel": "pilot",
+      "hardware_group": "raspberry-pi-zero-2-w",
+      "tags": ["pilot", "store-a"],
+      "notes": "Cafe demo device"
+    },
+    {
+      "fingerprint": "a2fb07f2e567c4c8f94e9be1ceddab4f6e020cfd40304d8ca8b33c2688c42186",
+      "short_id": "a2fb07f2e567",
+      "channel": "stable",
+      "hardware_group": "raspberry-pi-zero-2-w",
+      "tags": ["stable", "store-b"],
+      "notes": "Production kiosk"
+    }
+  ]
+}

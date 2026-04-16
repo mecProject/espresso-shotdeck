@@ -1,0 +1,13 @@
+name: Publish Metadata To Static Host
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload metadata and artifacts
+        run: |
+          echo "Sync ./metadata and ./artifacts to GitHub Pages, GitHub Releases, or another HTTPS static host."
