@@ -74,6 +74,7 @@ def safe_extract_tarball(archive_path: Path, destination: Path) -> None:
                 raise InstallError(f"Could not extract archive member {member.name}")
             with source, target.open("wb") as handle:
                 shutil.copyfileobj(source, handle)
+            os.chmod(target, member.mode & 0o777)
 
 
 def write_json_atomic(path: Path, payload: dict[str, Any]) -> None:
