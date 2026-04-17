@@ -1,0 +1,10 @@
+[Unit]
+Description=Watch for Shotdeck update prompt responses
+
+[Path]
+PathExists=/opt/shotdeck/update-response.json
+PathChanged=/opt/shotdeck/update-response.json
+Unit=shotdeck-update-response.service
+
+[Install]
+WantedBy=multi-user.target

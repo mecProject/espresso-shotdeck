@@ -1,0 +1,16 @@
+[Unit]
+Description=Process Shotdeck update prompt response
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/etc/shotdeck/updater.json
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+EnvironmentFile=-/etc/default/shotdeck
+EnvironmentFile=-/etc/default/shotdeck-updater
+WorkingDirectory=/opt/shotdeck
+ExecStart=/bin/bash /opt/shotdeck/public-updater-installer/scripts/run_configured_updater.sh /etc/shotdeck/updater.json process-response
+StandardOutput=journal
+StandardError=journal

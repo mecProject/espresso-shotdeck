@@ -20,6 +20,7 @@ apt-get install -y python3 python3-venv
 
 info "Preparing directories…"
 mkdir -p "$INSTALL_ROOT" "$CONFIG_ROOT" /var/log/shotdeck
+mkdir -p "$INSTALL_ROOT/public-updater-installer/scripts"
 
 info "Creating updater virtual environment…"
 python3 -m venv "$VENV_PATH"
@@ -42,8 +43,13 @@ info "Installing systemd units…"
 install -m 0644 "$REPO_ROOT/systemd/shotdeck.service" /etc/systemd/system/shotdeck.service
 install -m 0644 "$REPO_ROOT/systemd/shotdeck-updater.service" /etc/systemd/system/shotdeck-updater.service
 install -m 0644 "$REPO_ROOT/systemd/shotdeck-updater.timer" /etc/systemd/system/shotdeck-updater.timer
+install -m 0644 "$REPO_ROOT/systemd/shotdeck-update-response.service" /etc/systemd/system/shotdeck-update-response.service
+install -m 0644 "$REPO_ROOT/systemd/shotdeck-update-response.path" /etc/systemd/system/shotdeck-update-response.path
+install -m 0755 "$REPO_ROOT/scripts/check_update_connectivity.py" "$INSTALL_ROOT/public-updater-installer/scripts/check_update_connectivity.py"
+install -m 0755 "$REPO_ROOT/scripts/prompted_update_flow.py" "$INSTALL_ROOT/public-updater-installer/scripts/prompted_update_flow.py"
+install -m 0755 "$REPO_ROOT/scripts/run_configured_updater.sh" "$INSTALL_ROOT/public-updater-installer/scripts/run_configured_updater.sh"
 systemctl daemon-reload
-systemctl enable shotdeck.service shotdeck-updater.timer
+systemctl enable shotdeck.service shotdeck-updater.timer shotdeck-update-response.path
 
 echo ""
 echo "Shotdeck updater installed."
