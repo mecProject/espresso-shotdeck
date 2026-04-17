@@ -92,10 +92,33 @@ class UpdaterClient:
             getattr(self.logger, level)(message, *args)
 
     def _load_manifest(self) -> ReleaseManifest:
-        manifest_payload = fetch_json(self.config.manifest_url, timeout=self.config.request_timeout_seconds)
-        manifest = ReleaseManifest.from_dict(manifest_payload)
-        verify_manifest(manifest, self.config.public_key_path.read_bytes())
-        return manifest
+        last_error: DownloadError | None = None
+        for index, manifest_url in enumerate(self.config.manifest_urls):
+            try:
+                manifest_payload = fetch_json(manifest_url, timeout=self.config.request_timeout_seconds)
+                manifest = ReleaseManifest.from_dict(manifest_payload)
+                verify_manifest(manifest, self.config.public_key_path.read_bytes())
+                if index > 0:
+                    self._log(
+                        "warning",
+                        "Primary manifest URL %s failed earlier; using fallback manifest URL %s",
+                        self.config.manifest_url,
+                        manifest_url,
+                    )
+                return manifest
+            except DownloadError as exc:
+                last_error = exc
+                if index + 1 < len(self.config.manifest_urls):
+                    self._log(
+                        "warning",
+                        "Failed to fetch manifest from %s; trying fallback manifest URL",
+                        manifest_url,
+                    )
+                    continue
+                raise
+        if last_error is not None:
+            raise last_error
+        raise DownloadError("No manifest URLs are configured")
 
     def _load_allowlist(self, manifest: ReleaseManifest) -> AllowlistDocument | None:
         allowlist_ref = manifest.rollout.allowlist

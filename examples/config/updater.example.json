@@ -3,6 +3,7 @@
   "install_root": "/opt/shotdeck",
   "log_file": "/var/log/shotdeck/updater.log",
   "manifest_url": "https://updates.example.com/metadata/shotdeck-stable.json",
+  "next_manifest_url": "",
   "channel": "stable",
   "policy": "auto-apply",
   "service_name": "shotdeck",

@@ -48,6 +48,7 @@ class UpdaterConfig:
     install_root: Path = Path("/opt/shotdeck")
     log_file: Path = Path("/var/log/shotdeck/updater.log")
     manifest_url: str = ""
+    next_manifest_url: str = ""
     channel: str = "stable"
     policy: str = "auto-apply"
     service_name: str = "shotdeck"
@@ -71,6 +72,7 @@ class UpdaterConfig:
             install_root=Path(payload.get("install_root", "/opt/shotdeck")),
             log_file=Path(payload.get("log_file", "/var/log/shotdeck/updater.log")),
             manifest_url=str(payload.get("manifest_url", "")),
+            next_manifest_url=str(payload.get("next_manifest_url", "")),
             channel=str(payload.get("channel", "stable")).lower(),
             policy=str(payload.get("policy", "auto-apply")).lower(),
             service_name=str(payload.get("service_name", "shotdeck")),
@@ -101,6 +103,13 @@ class UpdaterConfig:
             raise ConfigError("retained_releases must be at least 1")
         if not self.manifest_url:
             raise ConfigError("manifest_url must be configured")
+
+    @property
+    def manifest_urls(self) -> tuple[str, ...]:
+        urls = [self.manifest_url]
+        if self.next_manifest_url and self.next_manifest_url != self.manifest_url:
+            urls.append(self.next_manifest_url)
+        return tuple(urls)
 
     @property
     def releases_dir(self) -> Path:
