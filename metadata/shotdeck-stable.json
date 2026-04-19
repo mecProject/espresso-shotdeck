@@ -3,7 +3,7 @@
   "full_artifact": {
     "filename": "shotdeck-0.1.1-full.tar.gz",
     "install_tree_sha256": "3db6b3f0336a0e8e51a1132d77cd7d5e18d39750ffb8f548f16289fae311f002",
-    "sha256": "d4409cbee32c45d4ae0c7699362d49f062ca565808f380d9951a03c26569efe8",
+    "sha256": "ee4a29b2634eb4825ea1e32248602e523045603301f54efa97ef470cd28fdd57",
     "size": 32586959,
     "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.1-full.tar.gz"
   },
@@ -11,7 +11,7 @@
   "notes": [],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-04-19T10:42:57.484471+00:00",
+  "released_at": "2026-04-19T10:56:22.057602+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -20,7 +20,7 @@
   "rollout": {
     "allow_downgrade": false,
     "allowlist": {
-      "sha256": "edbf90c3c379ab313de387c033ff82763907864385d2268bf254ed8870fc0eb6",
+      "sha256": "50f2856706ef3019c5a8122020c687671146d8ffaeee96fb88f98604b2fc98d1",
       "size": 412,
       "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
     },
@@ -28,9 +28,7 @@
     "channels": [
       "stable"
     ],
-    "device_fingerprints": [
-      "d33678ed6ba22a52868ddfdaa7a8e685f6cf9ae51a8970137497f7cf1868d27e"
-    ],
+    "device_fingerprints": [],
     "hardware_groups": [
       "raspberry-pi-zero-2-w-rev-1-0"
     ]
@@ -39,7 +37,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "XbtAHpZPY9DEMwNGlkW3c6/41yNxNNXo6XZbgyMHa9/HdsQMdimTgTp+QGqda4KE3JBPBCC2qrb8Ys5hnvsNBw=="
+    "value": "tAC38grkM4sWD5AqAViMwRWFdJqqBTxU/lU/UuHDYh+VVFoZEgFcyg+Sg02mSZnyXw30xDCGUrqdRnYHyqKSAg=="
   },
   "version": "0.1.1"
 }

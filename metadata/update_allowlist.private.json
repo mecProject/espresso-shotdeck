@@ -2,10 +2,10 @@
   "devices": [
     {
       "channel": "stable",
-      "fingerprint": "d33678ed6ba22a52868ddfdaa7a8e685f6cf9ae51a8970137497f7cf1868d27e",
+      "fingerprint": "9a517d77d99d5ad411d67dbb19cd9bb1ec46ee67023e5e59f66a032dfa435d46",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
       "notes": "shotdeck",
-      "short_id": "d33678ed6ba2",
+      "short_id": "9a517d77d99d",
       "tags": [
         "sold"
       ]
