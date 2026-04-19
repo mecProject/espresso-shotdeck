@@ -1,17 +1,17 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-1.0.4-full.tar.gz",
-    "install_tree_sha256": "d86cd04c0522979b03ad8d462d00436f9a6801d3f5f683133c117376634d302e",
-    "sha256": "dcff0cc4a590c904e1276a18eb1cf767959e5b4660c26aa0b0bea15d2680a302",
-    "size": 32194562,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-1.0.4-full.tar.gz"
+    "filename": "shotdeck-0.1.1-full.tar.gz",
+    "install_tree_sha256": "3db6b3f0336a0e8e51a1132d77cd7d5e18d39750ffb8f548f16289fae311f002",
+    "sha256": "d4409cbee32c45d4ae0c7699362d49f062ca565808f380d9951a03c26569efe8",
+    "size": 32586959,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.1-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
   "notes": [],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-04-17T05:29:47.512818+00:00",
+  "released_at": "2026-04-19T10:42:57.484471+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -19,18 +19,27 @@
   },
   "rollout": {
     "allow_downgrade": false,
+    "allowlist": {
+      "sha256": "edbf90c3c379ab313de387c033ff82763907864385d2268bf254ed8870fc0eb6",
+      "size": 412,
+      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
+    },
     "allowlist_tags": [],
     "channels": [
       "stable"
     ],
-    "device_fingerprints": [],
-    "hardware_groups": []
+    "device_fingerprints": [
+      "d33678ed6ba22a52868ddfdaa7a8e685f6cf9ae51a8970137497f7cf1868d27e"
+    ],
+    "hardware_groups": [
+      "raspberry-pi-zero-2-w-rev-1-0"
+    ]
   },
   "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
-    "key_id": "2e4bed289c2bf9e8",
-    "value": "ThDkop/d4TlA2TBkXR4XhUeccZgqksQlQh2BgDcm7aW37/NhDsphr75BTwWVj6Lx5FgkG0IMYSbWHlV3LWMmBg=="
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "XbtAHpZPY9DEMwNGlkW3c6/41yNxNNXo6XZbgyMHa9/HdsQMdimTgTp+QGqda4KE3JBPBCC2qrb8Ys5hnvsNBw=="
   },
-  "version": "1.0.4"
+  "version": "0.1.1"
 }

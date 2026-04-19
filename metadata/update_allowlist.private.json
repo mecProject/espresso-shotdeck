@@ -1,0 +1,17 @@
+{
+  "devices": [
+    {
+      "channel": "stable",
+      "fingerprint": "d33678ed6ba22a52868ddfdaa7a8e685f6cf9ae51a8970137497f7cf1868d27e",
+      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
+      "notes": "shotdeck",
+      "short_id": "d33678ed6ba2",
+      "tags": [
+        "sold"
+      ]
+    }
+  ],
+  "product": "shotdeck",
+  "schema_version": "1.0",
+  "updated_at": "2026-04-19T10:28:34.899143+00:00"
+}
