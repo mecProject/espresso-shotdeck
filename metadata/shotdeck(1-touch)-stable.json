@@ -1,0 +1,43 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.6-full.tar.gz",
+    "install_tree_sha256": "6e1e30984778c738163e089317de4a8ae1adcb296e66a49a4356fda3e871e718",
+    "sha256": "ce001ccd70e93dfb704bcdd668d33777dedb234576435d4c8331bc16e765d5ff",
+    "size": 32622598,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.6-full.tar.gz"
+  },
+  "min_updater_version": "0.1.0",
+  "notes": [],
+  "patch_artifacts": [],
+  "product": "shotdeck(1-touch)",
+  "released_at": "2026-04-19T19:38:03.671716+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist": {
+      "sha256": "8a6f56fe0fa722424d7cc7a410eaf53b2b1f6b8d23a216ffcd22005ab6371274",
+      "size": 412,
+      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
+    },
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": [
+      "raspberry-pi-zero-2-w-rev-1-0"
+    ]
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "RgWRUnyyWsMvf5MSmwbc8ZUr3C7Yh+Uwf8ncv16usrvZ2GOC/K3Ljj3JIfCpyK6P7i7yEHk5lEGUJ9M9fQ9uAA=="
+  },
+  "version": "0.1.6"
+}
