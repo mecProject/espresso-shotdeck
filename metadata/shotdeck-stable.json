@@ -1,17 +1,17 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.8-full.tar.gz",
-    "install_tree_sha256": "1f5541dcb2e2d5684e92f92e76dc765970a937231e1a3a63990b82e9d7684e10",
-    "sha256": "42e12a2dc6060b6f1ea1482fa4eeeaa838dafb0505f00d3379177d725df3aa62",
-    "size": 32637714,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.8-full.tar.gz"
+    "filename": "shotdeck-0.1.9-full.tar.gz",
+    "install_tree_sha256": "e20965e537dd1dbf127d3c358482ae1723a3dd43af3f5cccd4350cb38e12d933",
+    "sha256": "de37591ce7114c8548efbab7d4e11cb15d0ba733f71e69e110359d24a6fdfb1b",
+    "size": 33282477,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.9-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
   "notes": [],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-04-19T20:47:26.000353+00:00",
+  "released_at": "2026-04-24T07:13:11.673286+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -20,8 +20,8 @@
   "rollout": {
     "allow_downgrade": false,
     "allowlist": {
-      "sha256": "f549cb3c2524f21c807882c0593f6095934e91820efbe9bc97295d6df8290af2",
-      "size": 412,
+      "sha256": "7d132e443e3cba7c00cfd8a9c4b3106f75a482ff86af140825b76d088098ad3f",
+      "size": 1232,
       "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
     },
     "allowlist_tags": [],
@@ -37,7 +37,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "TIh56+B7oVVmND4P/CO77CNleJ5kvysAbNkIHAs573H2905mqcIgIKRIfz7Dqw7GZuMYeTdTuNfkPl2LaZ1oCA=="
+    "value": "QrEXJt8Iqg/QCGhEwZr6nO/ESqOqLJJMv5bPZ3urS6x2qmGKmKRauJW1RmoSZEIRnTgM+Z8TOyqtHqans61YAg=="
   },
-  "version": "0.1.8"
+  "version": "0.1.9"
 }

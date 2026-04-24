@@ -2,16 +2,42 @@
   "devices": [
     {
       "channel": "stable",
-      "fingerprint": "9a517d77d99d5ad411d67dbb19cd9bb1ec46ee67023e5e59f66a032dfa435d46",
+      "fingerprint": "2eee7450969beda01c3cc18401bfa19dbdd83351a5687c79fe29aa2d8bc0d0e1",
+      "hardware_group": "",
+      "notes": "Initial sale",
+      "short_id": "2eee7450969b",
+      "tags": []
+    },
+    {
+      "channel": "stable",
+      "fingerprint": "8cd8cb95b4559bf1bf1818ee1edcf4d5c718bb4dbb28b79b45a2bd7404d7be11",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
-      "notes": "shotdeck",
-      "short_id": "9a517d77d99d",
+      "notes": "shotdeck-128r-1",
+      "short_id": "8cd8cb95b455",
       "tags": [
         "sold"
+      ]
+    },
+    {
+      "channel": "stable",
+      "fingerprint": "24b53d2ad50e40a297a0f7361bfaa4507248f5a1a0a505cd4dbfc29afe7b0a66",
+      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
+      "notes": "round touch",
+      "short_id": "24b53d2ad50e",
+      "tags": []
+    },
+    {
+      "channel": "stable",
+      "fingerprint": "c2802749930bda38f70345cd43b84517f7624895f84fd616f3542eec55fbf78e",
+      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
+      "notes": "My Machine on LM Linea Micra",
+      "short_id": "c2802749930b",
+      "tags": [
+        "owned"
       ]
     }
   ],
   "product": "shotdeck",
   "schema_version": "1.0",
-  "updated_at": "2026-04-19T20:10:01.799409+00:00"
+  "updated_at": "2026-04-24T06:02:13.430407+00:00"
 }
