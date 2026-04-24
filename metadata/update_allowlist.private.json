@@ -3,7 +3,7 @@
     {
       "channel": "stable",
       "fingerprint": "2eee7450969beda01c3cc18401bfa19dbdd83351a5687c79fe29aa2d8bc0d0e1",
-      "hardware_group": "",
+      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
       "notes": "Initial sale",
       "short_id": "2eee7450969b",
       "tags": []
