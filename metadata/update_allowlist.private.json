@@ -3,7 +3,7 @@
     {
       "channel": "stable",
       "fingerprint": "2eee7450969beda01c3cc18401bfa19dbdd83351a5687c79fe29aa2d8bc0d0e1",
-      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
+      "hardware_group": "",
       "notes": "Initial sale",
       "short_id": "2eee7450969b",
       "tags": []
@@ -39,5 +39,5 @@
   ],
   "product": "shotdeck",
   "schema_version": "1.0",
-  "updated_at": "2026-04-24T06:02:13.430407+00:00"
+  "updated_at": "2026-04-26T05:45:19.366500+00:00"
 }
