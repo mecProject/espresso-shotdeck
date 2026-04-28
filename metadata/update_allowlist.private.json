@@ -20,10 +20,10 @@
     },
     {
       "channel": "stable",
-      "fingerprint": "24b53d2ad50e40a297a0f7361bfaa4507248f5a1a0a505cd4dbfc29afe7b0a66",
+      "fingerprint": "4b17f036a56111fe5ac4c6af37d09f49df8b275747b67bd5b501c66d6b3f6aad",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
-      "notes": "round touch",
-      "short_id": "24b53d2ad50e",
+      "notes": "shotdeck-128rt-1",
+      "short_id": "4b17f036a561",
       "tags": []
     },
     {
@@ -39,5 +39,5 @@
   ],
   "product": "shotdeck",
   "schema_version": "1.0",
-  "updated_at": "2026-04-26T05:45:19.366500+00:00"
+  "updated_at": "2026-04-28T19:34:33.656360+00:00"
 }
