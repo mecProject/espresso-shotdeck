@@ -20,8 +20,8 @@
   "rollout": {
     "allow_downgrade": false,
     "allowlist": {
-      "sha256": "bc8e91ec1f67a7fabc4d0e9f6a8f3f6f1103c242043e13986582ce1efec4c08b",
-      "size": 1237,
+      "sha256": "8c1d730cd239ca9f1a359e62b6087a54a4b0ca52510ddbab9f7cdc469d180f61",
+      "size": 1209,
       "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
     },
     "allowlist_tags": [],
@@ -37,7 +37,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "NYlZTuRsbx0W5v5EIEVoTxhBLELEuglRviefklthBsUYzUeBdFolGiV9xv/G0a7l6NeorKXVVnaBkEZYXr83CA=="
+    "value": "l5yViLBTJnir394kUUYi50SJ+RFJP7aQ8nASa83rsY4h5psdiijdbZl/vLjVUn+0OdUko5sAaLWllDbAV8AUAg=="
   },
   "version": "0.1.13"
 }

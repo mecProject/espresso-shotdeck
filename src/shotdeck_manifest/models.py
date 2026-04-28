@@ -22,6 +22,8 @@ def _require_str(value: Any, field_name: str) -> str:
 def _optional_str(value: Any, field_name: str) -> str | None:
     if value is None:
         return None
+    if isinstance(value, str) and not value.strip():
+        return None
     return _require_str(value, field_name)
 
 

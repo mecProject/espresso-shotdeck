@@ -4,7 +4,17 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 import pytest
 
-from shotdeck_manifest import ArtifactRef, ManifestSignatureError, ReleaseManifest, RollbackInfo, RolloutRules, sign_manifest, verify_manifest
+from shotdeck_manifest import (
+    AllowlistDocument,
+    AllowlistEntry,
+    ArtifactRef,
+    ManifestSignatureError,
+    ReleaseManifest,
+    RollbackInfo,
+    RolloutRules,
+    sign_manifest,
+    verify_manifest,
+)
 
 
 def make_manifest() -> ReleaseManifest:
@@ -59,3 +69,47 @@ def test_manifest_tampering_is_rejected() -> None:
     manifest.notes.append("tampered")
     with pytest.raises(ManifestSignatureError):
         verify_manifest(manifest, public_pem)
+
+
+def test_allowlist_blank_optional_fields_are_ignored() -> None:
+    allowlist = AllowlistDocument.from_dict(
+        {
+            "schema_version": "1.0",
+            "product": "shotdeck",
+            "updated_at": "2026-04-28T20:00:00Z",
+            "devices": [
+                {
+                    "fingerprint": "a" * 64,
+                    "short_id": "aaaaaaaaaaaa",
+                    "channel": "stable",
+                    "hardware_group": "",
+                    "tags": [],
+                    "notes": "",
+                }
+            ],
+        }
+    )
+
+    entry = allowlist.devices[0]
+    assert entry.hardware_group is None
+    assert entry.notes is None
+    assert "hardware_group" not in entry.to_dict()
+    assert "notes" not in entry.to_dict()
+
+
+def test_allowlist_entry_omits_empty_optional_fields() -> None:
+    payload = AllowlistEntry(
+        fingerprint="b" * 64,
+        short_id="bbbbbbbbbbbb",
+        channel="stable",
+        hardware_group="",
+        tags=[],
+        notes="",
+    ).to_dict()
+
+    assert payload == {
+        "fingerprint": "b" * 64,
+        "short_id": "bbbbbbbbbbbb",
+        "channel": "stable",
+        "tags": [],
+    }
