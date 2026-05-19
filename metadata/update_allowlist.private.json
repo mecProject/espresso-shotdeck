@@ -2,41 +2,52 @@
   "devices": [
     {
       "channel": "stable",
-      "fingerprint": "2eee7450969beda01c3cc18401bfa19dbdd83351a5687c79fe29aa2d8bc0d0e1",
-      "notes": "Initial sale",
-      "short_id": "2eee7450969b",
-      "tags": []
-    },
-    {
-      "channel": "stable",
-      "fingerprint": "8cd8cb95b4559bf1bf1818ee1edcf4d5c718bb4dbb28b79b45a2bd7404d7be11",
+      "fingerprint": "a9d9be75fd9f6ac170c9afec5a5668a320c8c0d1b82b00d15d2f725f15b9cfa3",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
-      "notes": "shotdeck-128r-1",
-      "short_id": "8cd8cb95b455",
+      "notes": "shotdeck-2inch-1",
+      "short_id": "a9d9be75fd9f",
       "tags": [
         "sold"
       ]
     },
     {
       "channel": "stable",
-      "fingerprint": "7ccee72b8e1d65af8f67cd22181c036e5d2514bd04f23f81fdbdbd3f28fd2200",
+      "fingerprint": "b0d9b3d515485fa3eab326284d587931dc4ec16fd1c42c857b54b431562f308d",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
       "notes": "shotdeck-35F-1",
-      "short_id": "7ccee72b8e1d",
+      "short_id": "b0d9b3d51548",
       "tags": []
     },
     {
       "channel": "stable",
-      "fingerprint": "c2802749930bda38f70345cd43b84517f7624895f84fd616f3542eec55fbf78e",
+      "fingerprint": "1a835f3817ffd46dff00de681eef8644f5552e1af11a2f2a73ab54f8a726f191",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
-      "notes": "My Machine on LM Linea Micra",
-      "short_id": "c2802749930b",
+      "notes": "shotdeck-35F-1",
+      "short_id": "1a835f3817ff",
+      "tags": []
+    },
+    {
+      "channel": "stable",
+      "fingerprint": "b85fd32c47e125acdce43f38187dd99177c2aea08c84e0f7de4a684fc6eb9e9d",
+      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
+      "notes": "Falk-KA",
+      "short_id": "b85fd32c47e1",
       "tags": [
-        "owned"
+        "sold"
+      ]
+    },
+    {
+      "channel": "stable",
+      "fingerprint": "1aa4892e81d8f02a1b229506bb111db943421a7bd275d35cfb4e056ee445c39a",
+      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
+      "notes": "shotdeck-demo",
+      "short_id": "1aa4892e81d8",
+      "tags": [
+        "sold"
       ]
     }
   ],
   "product": "shotdeck",
   "schema_version": "1.0",
-  "updated_at": "2026-04-30T19:03:37.129321+00:00"
+  "updated_at": "2026-05-19T16:05:10.167795+00:00"
 }
