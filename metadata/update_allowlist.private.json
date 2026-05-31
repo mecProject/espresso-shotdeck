@@ -20,11 +20,13 @@
     },
     {
       "channel": "stable",
-      "fingerprint": "1a835f3817ffd46dff00de681eef8644f5552e1af11a2f2a73ab54f8a726f191",
+      "fingerprint": "ac03d8de12ed47cdbdedd7a3371d11354104be8ecf6bd23f2f6a4a5373c3644f",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
-      "notes": "shotdeck-35F-1",
-      "short_id": "1a835f3817ff",
-      "tags": []
+      "notes": "demo for updates",
+      "short_id": "ac03d8de12ed",
+      "tags": [
+        "sold"
+      ]
     },
     {
       "channel": "stable",
@@ -49,5 +51,5 @@
   ],
   "product": "shotdeck",
   "schema_version": "1.0",
-  "updated_at": "2026-05-19T16:05:10.167795+00:00"
+  "updated_at": "2026-05-31T06:27:13.595862+00:00"
 }

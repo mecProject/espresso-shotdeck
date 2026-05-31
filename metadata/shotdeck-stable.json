@@ -1,27 +1,29 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.23-full.tar.gz",
-    "install_tree_sha256": "a3e775e691b207a33eef45c798d9c51e5529dc69db274bb30c09a638f117a552",
-    "sha256": "19756622fa5ffa81cc1b439e85d19c5d8b03ce033083c7576be9129b7a6fe8ab",
-    "size": 46746115,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.23-full.tar.gz"
+    "filename": "shotdeck-0.1.24-full.tar.gz",
+    "install_tree_sha256": "3cfc6541187d8a7d12fe771a1f34a0b50b605db15151efad10a63027e5189171",
+    "sha256": "e4c8a468a68aebf66b06efcb8705cbac5150c96d70c1bb0637c0a5796731fba7",
+    "size": 48049668,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.24-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
-  "notes": [],
+  "notes": [
+    "Updated device and web UIs"
+  ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-05-19T18:18:11.871561+00:00",
+  "released_at": "2026-05-31T06:49:08.815813+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
     "keep_versions": 2
   },
   "rollout": {
-    "allow_downgrade": false,
+    "allow_downgrade": true,
     "allowlist": {
-      "sha256": "35b41ff906c868a05cf8351b64d1edfa0766bb98a961643aa9c19fa3f8876b27",
-      "size": 1536,
+      "sha256": "07f4dbfdede6c14a5869e23ef795485b2c6ba0e587674a0de25452744354c0ee",
+      "size": 1560,
       "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
     },
     "allowlist_tags": [],
@@ -37,7 +39,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "jv+W1MpZkBsFhgd3vWUle6zBkOerCBax8L3sDwRewxWk8urbZN8uWMJsq6N+wDhGY39jDUOkFT0Cjs5Lg0KSAQ=="
+    "value": "cOFN+blPl7/ZN6yP+xKGW13Oik8RGgUf2mHPcJBYh5L+UyPvzNLZDJAIp7wouz5ZPvBtB9X9jujl4Vc3LB2WDQ=="
   },
-  "version": "0.1.23"
+  "version": "0.1.24"
 }
