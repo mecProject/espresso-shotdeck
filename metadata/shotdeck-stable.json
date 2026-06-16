@@ -1,11 +1,11 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.27-full.tar.gz",
-    "install_tree_sha256": "b84befb06c0660e62b389634e7ba6fb617dc50eb73d4c67b487716125016ed2d",
-    "sha256": "aaf40bf400544d325841c4c2a902292e3167c7a2cbef8c999d7909bec3cfa8c7",
-    "size": 48133595,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.27-full.tar.gz"
+    "filename": "shotdeck-0.1.28-full.tar.gz",
+    "install_tree_sha256": "313bc0aceb3522c7486ea199d2831b2b54a15972c22ae222e4408ff7d1f8083f",
+    "sha256": "657b9e299be23c467ea63813fcf023805bbe388a1e39e651e5aac4cb0013196a",
+    "size": 48160008,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.28-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
   "notes": [
@@ -13,7 +13,7 @@
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-06-15T18:58:42.426539+00:00",
+  "released_at": "2026-06-16T15:35:41.935002+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -39,7 +39,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "Jx+1qrpm6fgAhLF20byy4/0fgTQtni57VehVmJcz+4MDA0u16JkhiKedDgLGSrX6AfT4p1MJ6IxHdD8QwpmxCw=="
+    "value": "GH6ekeGtQputmQDYBkk7+zc+xxWg0gCO0aXDYDBhQtlwY6oYaW3lxRpbOq5Q0K9T+pFbVcHFS5jl5iXOQh9lDA=="
   },
-  "version": "0.1.27"
+  "version": "0.1.28"
 }
