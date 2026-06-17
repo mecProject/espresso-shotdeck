@@ -1,19 +1,19 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.29-full.tar.gz",
-    "install_tree_sha256": "651cf8ff179bd32d2ea06153862951c5533e4049adc31b2be2b398fd266dd4f2",
-    "sha256": "bd721f136ccf31dcbb58e72b45e3eb5f734a9eb5be6d252e9ea6b0a30de9ba3c",
-    "size": 48159569,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.29-full.tar.gz"
+    "filename": "shotdeck-0.1.30-full.tar.gz",
+    "install_tree_sha256": "038728c58aefdbf85a138e5a09ffc635107bc36575168744de364e379155af13",
+    "sha256": "c12ce9b217214e68e62ea2742bc864b906c0b3c8b2f1cd61bb8abd5b0d62bf3b",
+    "size": 48165807,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.30-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
   "notes": [
-    "Updated device and web UIs"
+    "Fixed delete confirmations on device and web UIs for Falk"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-06-16T16:57:38.847848+00:00",
+  "released_at": "2026-06-17T14:43:50.847970+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -21,16 +21,13 @@
   },
   "rollout": {
     "allow_downgrade": true,
-    "allowlist": {
-      "sha256": "6513966bab85e0630a79f7669bbc6a63d470234743df2823b75e715137ef6603",
-      "size": 1536,
-      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
-    },
     "allowlist_tags": [],
     "channels": [
       "stable"
     ],
-    "device_fingerprints": [],
+    "device_fingerprints": [
+      "b85fd32c47e125acdce43f38187dd99177c2aea08c84e0f7de4a684fc6eb9e9d"
+    ],
     "hardware_groups": [
       "raspberry-pi-zero-2-w-rev-1-0"
     ]
@@ -39,7 +36,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "R7EwZPSCQbv+om7qnJq4v1zn+qn0EEiM9DGGMDH1TZ8T5ZNJ8B9HT4ViBp3+HsuCmv+451QuNyr5YD6oEZCNAg=="
+    "value": "XlElrZOR0JHmcZzMQ/FKwSIX6VkL027hrKsRf0P36384ldVsd/B2JyBmWIZSFmgwx5MElXwsyEaRqcWi6JFwBQ=="
   },
-  "version": "0.1.29"
+  "version": "0.1.30"
 }
