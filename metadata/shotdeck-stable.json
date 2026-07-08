@@ -1,19 +1,19 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.41-full.tar.gz",
-    "install_tree_sha256": "7fb17506b9367e18cda5202ffea7cbc3a13cb02abadad56cda857fe3a23f6fa3",
-    "sha256": "60fd8b3bd7a398faf272e92311d8e0d2ee8ac2b8c35442226032ebce4c353f74",
-    "size": 48455474,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.41-full.tar.gz"
+    "filename": "shotdeck-0.1.42-full.tar.gz",
+    "install_tree_sha256": "58330286301ecca3f3ea62e8d819aff14e07c3aff85aaa8d1616140008afb3bb",
+    "sha256": "e2855981089180d29eb61d431dd6d2cd7dba2adfa9da7945eceb5a8e339c16b7",
+    "size": 48528115,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.42-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
   "notes": [
-    "Updated device and web UIs"
+    "Added new Home/Brewing UIs (minimal and weight focused)"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-07-04T20:45:52.605190+00:00",
+  "released_at": "2026-07-08T11:06:14.060532+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -22,7 +22,7 @@
   "rollout": {
     "allow_downgrade": true,
     "allowlist": {
-      "sha256": "6c6ad0816b6d9b88d60f02287b4fe066e67d9084fed20cbfba360ed275818151",
+      "sha256": "17839621f74966f0227dd55e0b599f62f71f3df82b3ebf87ece57a90a56048d5",
       "size": 2416,
       "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
     },
@@ -39,7 +39,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "NgR5RwS1ylHrjng0UmvYb2OJYLKrXNUj6BZ9kpYY+9dRWeC44VRm50p8hK2KFVqstKnvodEVQlzMOsV8bvLjBQ=="
+    "value": "Kk5n5yJlQqSzde5EK/XL4rVEIM2luZ9vSpg08NJjH3ZmjzCf+JWgxIG6mwOA+mnTz0W0LiaBNw3i154WOwtoCw=="
   },
-  "version": "0.1.41"
+  "version": "0.1.42"
 }
