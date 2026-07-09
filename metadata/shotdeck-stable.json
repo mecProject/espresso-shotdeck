@@ -1,29 +1,30 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.46-full.tar.gz",
-    "install_tree_sha256": "932c40cea1158c394db71350fd38d7666e01a09d971d491296612bc3393187f7",
-    "sha256": "92782663c007719e5e53db2e060792f8e205c80fb0dcaa8420b68643899d3d52",
-    "size": 48549272,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.46-full.tar.gz"
+    "filename": "shotdeck-0.1.47-full.tar.gz",
+    "install_tree_sha256": "4c538a64b9c71295a319563ca52097d93d62256f71a136e0683fc4fb5cbc8c8c",
+    "sha256": "807ede4c863b6c3f627b0a641d331e7c286a1760803f4969d5832d4dfdbe8f65",
+    "size": 48576151,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.47-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
   "notes": [
-    "Added new Home/Brewing UIs (minimal and weight focused)"
+    "Fixes Pi Zero 2 W Wi-Fi failures on WPA2/WPA3 mixed networks.",
+    "Repairs saved Wi-Fi profiles and adds persistent firmware-crash recovery."
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-07-09T17:20:22.428112+00:00",
+  "released_at": "2026-07-09T20:20:43.907000+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
     "keep_versions": 2
   },
   "rollout": {
-    "allow_downgrade": true,
+    "allow_downgrade": false,
     "allowlist": {
-      "sha256": "17839621f74966f0227dd55e0b599f62f71f3df82b3ebf87ece57a90a56048d5",
-      "size": 2416,
+      "sha256": "d53582e839dbe99c97cbb3bf9ae20ee0479b77988d3a2f31ebe959c7c3a52904",
+      "size": 2696,
       "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
     },
     "allowlist_tags": [],
@@ -31,15 +32,13 @@
       "stable"
     ],
     "device_fingerprints": [],
-    "hardware_groups": [
-      "raspberry-pi-zero-2-w-rev-1-0"
-    ]
+    "hardware_groups": []
   },
   "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "ISIRYT+GhGnDQoVTuhgW4HxtfU6SWCORIKP5z3RHQEuUcWMIqnWX7mTDKbZg7rnGxHqhBxYVlIQjetoyXASBDA=="
+    "value": "E1qfQqDj7i7KPDM0nLxZ9PcPh81gT7zHvNFjcsvkS3D6cCBTKwzPmn2xOCLjlnvavFBirzJTdfUVWtwOhdE4DQ=="
   },
-  "version": "0.1.46"
+  "version": "0.1.47"
 }
