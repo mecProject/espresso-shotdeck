@@ -68,6 +68,16 @@
     },
     {
       "channel": "stable",
+      "fingerprint": "df121a23366f12983d10ede4b32e17e859a81fd522015e27e655f815a89026ed",
+      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
+      "notes": "CustomerA",
+      "short_id": "df121a23366f",
+      "tags": [
+        "sold"
+      ]
+    },
+    {
+      "channel": "stable",
       "fingerprint": "1aa4892e81d8f02a1b229506bb111db943421a7bd275d35cfb4e056ee445c39a",
       "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
       "notes": "shotdeck-demo",
@@ -75,19 +85,9 @@
       "tags": [
         "sold"
       ]
-    },
-    {
-      "channel": "stable",
-      "fingerprint": "6c02bbdcbd03259eb90857ce864dd717dc44b48fee1b6a6cd9abbaee7b5d9508",
-      "hardware_group": "raspberry-pi-zero-2-w-rev-1-0",
-      "notes": "shotdeck-35f-6",
-      "short_id": "6c02bbdcbd03",
-      "tags": [
-        "sold"
-      ]
     }
   ],
   "product": "shotdeck",
   "schema_version": "1.0",
-  "updated_at": "2026-07-09T20:05:17Z"
+  "updated_at": "2026-07-10T13:09:02.307729+00:00"
 }
