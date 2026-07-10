@@ -1,30 +1,28 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.50-full.tar.gz",
-    "install_tree_sha256": "b3bb7d2761f51b9778e945a22d5f367e53e64c09109ad4ae45787306985797b0",
-    "sha256": "2e71ef29d78d412344d1b1a89557c3d7e48c907bb3ae123e90d019f77512c323",
-    "size": 48626914,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.50-full.tar.gz"
+    "filename": "shotdeck-0.1.51-full.tar.gz",
+    "install_tree_sha256": "515d58af6394442cb25dc8725305428cc9102468c9b85909b2c84bdf67b9eb3a",
+    "sha256": "a35b6f1f2c3c70400db5fe5abbcf50807c91d9cffad9c91e35698a3eb3d97078",
+    "size": 48619957,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.51-full.tar.gz"
   },
   "min_updater_version": "0.1.0",
   "notes": [
-    "Shotdeck starts when Wi-Fi is unavailable",
-    "Repairs legacy network-online service ordering",
-    "Fixes GT911 touch initialization on 3.5F devices"
+    "Added new Home/Brewing UIs (minimal and weight focused)"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-07-10T16:49:10.473963+00:00",
+  "released_at": "2026-07-10T17:52:07.589086+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
     "keep_versions": 2
   },
   "rollout": {
-    "allow_downgrade": false,
+    "allow_downgrade": true,
     "allowlist": {
-      "sha256": "686f89268e3707535c26aac093a09dd00b0edb00667b58ab98146bbe04d8db7e",
+      "sha256": "31a999041677f9dc284123e51341e35139587be4819a3d0971260d8fe1f7b814",
       "size": 2703,
       "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
     },
@@ -41,7 +39,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "ykpNPhY8SWI1rIjIdjLGuyu9Wh+FCoeZIT/RjEpXTF1EeF+SeJD8NO1VRG3u8qQnWrbZ7145+RsN2/r0oruBCQ=="
+    "value": "fTeZpab4SdseJ6FX51mLuA9bOC2BuOMoEdHOGlAeCTjL5ePaBoa1CW5skzvP5xYuHJd0L3rlW6OaeodkuJCZDQ=="
   },
-  "version": "0.1.50"
+  "version": "0.1.51"
 }
