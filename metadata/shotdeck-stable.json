@@ -1,30 +1,40 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.52-full.tar.gz",
-    "install_tree_sha256": "196aea1b89ca81549b629328c33f6ca4cef1ff912bf8fa51233f2d2f78b87f4d",
-    "sha256": "5a2b98e831403b97dcb1ae96cf3ccc809a31c563aa2d0285b43081e163aede99",
-    "size": 48619916,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.52-full.tar.gz"
+    "filename": "shotdeck-0.1.53-full.tar.gz",
+    "install_tree_sha256": "062b6719d5bf4d82554980831a82b434f12d49ec3e9de47f02199bdb58a49c5a",
+    "sha256": "85e0145561c58b38f8e2dac216b12c9f26eb8c875fcb4f05dc94fef55fb418a7",
+    "size": 48758466,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.53-full.tar.gz"
   },
-  "min_updater_version": "0.1.0",
+  "min_updater_version": "0.2.0",
   "notes": [
     "Added new Home/Brewing UIs (minimal and weight focused)"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "released_at": "2026-07-10T21:37:13.914258+00:00",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "0c7ef18289eed97cfe67e9ef771145ae6c4cab88e5e8df3a55aed12aeb2aac51",
+    "source_commit": "d32086d4f9f693f4ca7b4b5ae9420ed360d0b5cc",
+    "source_tree_sha256": "192bbb930dbbadc1d05f4c3be48468f5d17c8cb4f161e32c725622174b68076e",
+    "version": "0.1.53"
+  },
+  "released_at": "2026-07-11T10:48:41.465010+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
     "keep_versions": 2
   },
   "rollout": {
-    "allow_downgrade": true,
+    "allow_downgrade": false,
     "allowlist": {
-      "sha256": "9a4a3a90e5866c035aea58df15da44e29c7f0d0a7f58c78de2c337298f13b838",
-      "size": 2703,
-      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/update_allowlist.private.json"
+      "sha256": "e7f95da40846cb8f7999614c7f48c67cf43b02bee585ff81a59be884a104ef57",
+      "size": 2413,
+      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/shotdeck-stable-allowlist.json"
     },
     "allowlist_tags": [],
     "channels": [
@@ -39,7 +49,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "OW7yh5nDb2BlTbhtBz0dWLXA2pxr1docki/srLODVpc4CybSrnqVcCLi5JweB9xd/wClPmIFHMvuXQXzlMTSAw=="
+    "value": "FkAlnITW9p72Z4gPD0bhXRNmpCWYQ5vSQP4AMfr0BZSNzjl+pubFp1fU6HEDCPSCR3jPNsEK4ePwLEYIOkimDg=="
   },
-  "version": "0.1.52"
+  "version": "0.1.53"
 }
