@@ -1,15 +1,15 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.55-full.tar.gz",
-    "install_tree_sha256": "6e3687abb5fafb644aedf7d489f5d2331d8693bcde5d193998acefcb9f06e437",
-    "sha256": "9d57dece8bcd53f38b238260927c78226fe162fce569ee415ac7193d17643a13",
-    "size": 48882568,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.55-full.tar.gz"
+    "filename": "shotdeck-0.1.56-full.tar.gz",
+    "install_tree_sha256": "6c98cfc5f5a668492dbc66583c210950a0ba7979adaba10b69f5a16d1315c45a",
+    "sha256": "5316666f17da96c761446f36747279002a18f1e8ed4714aa5257fd450ddecae8",
+    "size": 48882720,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.56-full.tar.gz"
   },
-  "min_updater_version": "0.2.0",
+  "min_updater_version": "0.2.1",
   "notes": [
-    "Added new Home/Brewing UIs (minimal and weight focused)"
+    "Add initial secure updater check shortly after boot"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -18,12 +18,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "5c76af7a324c78b86e3aa67a7ae493af96e48998e0c48017db9d4e7fa028bcca",
-    "source_commit": "8e1ca6b618abe1fe61c2d9670b25c38adeb31891",
-    "source_tree_sha256": "5026d3f60a7abd731e89f3e8dd2fe9b51211a06f25905fc993f9f6513c69207b",
-    "version": "0.1.55"
+    "sbom_sha256": "4c1faec68879da58adede13f35ff18b3575374892c910d1b5d8cd2f7fe98e0ec",
+    "source_commit": "0a71bffc6e0af88b5bde5f37cd3757a9701ced85",
+    "source_tree_sha256": "b5b5240a6575b0a2a36536ac1221c0b4ed5fd73f7c2aa51a42b0d38a77a0f375",
+    "version": "0.1.56"
   },
-  "released_at": "2026-07-11T17:57:39.558711+00:00",
+  "released_at": "2026-07-11T18:46:18.284484+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -42,7 +42,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "WnDcylcicT/DPQAPmcyTt11PLaMh5F2NIjopoZIuCM6lFEDR+thLs0YG9XhjO6oCZrYJBWv/TeigDXNArHzVDg=="
+    "value": "b18EpLA6/ZPwNy4zkrMtEI6YDjtwMdURKRYyuz6A/MEz6N7qbTjxCgaCA9vzgqLGAVPgRFtm6ynjp8nISrG3DQ=="
   },
-  "version": "0.1.55"
+  "version": "0.1.56"
 }
