@@ -1,29 +1,21 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.53-full.tar.gz",
-    "install_tree_sha256": "062b6719d5bf4d82554980831a82b434f12d49ec3e9de47f02199bdb58a49c5a",
-    "sha256": "85e0145561c58b38f8e2dac216b12c9f26eb8c875fcb4f05dc94fef55fb418a7",
-    "size": 48758466,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.53-full.tar.gz"
+    "filename": "shotdeck-0.1.55-full.tar.gz",
+    "install_tree_sha256": "6e3687abb5fafb644aedf7d489f5d2331d8693bcde5d193998acefcb9f06e437",
+    "sha256": "9d57dece8bcd53f38b238260927c78226fe162fce569ee415ac7193d17643a13",
+    "size": 48882568,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.55-full.tar.gz"
   },
-  "min_updater_version": "0.2.0",
+  "min_updater_version": "0.1.0",
   "notes": [
-    "Added new Home/Brewing UIs (minimal and weight focused)"
+    "Added new Home/Brewing UIs (minimal and weight focused)",
+    "Permanent updater-0.1 fleet bridge: keep this manifest and artifact available indefinitely.",
+    "Legacy updater bridge build provenance: source_commit=8e1ca6b618abe1fe61c2d9670b25c38adeb31891; source_tree_sha256=5026d3f60a7abd731e89f3e8dd2fe9b51211a06f25905fc993f9f6513c69207b; builder=shotdeck-dev/aarch64"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
-  "provenance": {
-    "builder_architecture": "aarch64",
-    "builder_hostname": "shotdeck-dev",
-    "nuitka_version": "4.0.8",
-    "python_version": "Python 3.13.5",
-    "sbom_sha256": "0c7ef18289eed97cfe67e9ef771145ae6c4cab88e5e8df3a55aed12aeb2aac51",
-    "source_commit": "d32086d4f9f693f4ca7b4b5ae9420ed360d0b5cc",
-    "source_tree_sha256": "192bbb930dbbadc1d05f4c3be48468f5d17c8cb4f161e32c725622174b68076e",
-    "version": "0.1.53"
-  },
-  "released_at": "2026-07-11T10:48:41.465010+00:00",
+  "released_at": "2026-07-11T17:57:39.558711+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -31,25 +23,18 @@
   },
   "rollout": {
     "allow_downgrade": false,
-    "allowlist": {
-      "sha256": "e7f95da40846cb8f7999614c7f48c67cf43b02bee585ff81a59be884a104ef57",
-      "size": 2413,
-      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/shotdeck-stable-allowlist.json"
-    },
     "allowlist_tags": [],
     "channels": [
       "stable"
     ],
     "device_fingerprints": [],
-    "hardware_groups": [
-      "raspberry-pi-zero-2-w-rev-1-0"
-    ]
+    "hardware_groups": []
   },
   "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "FkAlnITW9p72Z4gPD0bhXRNmpCWYQ5vSQP4AMfr0BZSNzjl+pubFp1fU6HEDCPSCR3jPNsEK4ePwLEYIOkimDg=="
+    "value": "7UtZsTrfKqfejKSRJ4gnyyIkHRm38HLv16fnEzAKfqN1CNwFIgV0ZxAKG8P/8ST30uMsL3vVbRYtWKqq4b3fDQ=="
   },
-  "version": "0.1.53"
+  "version": "0.1.55"
 }

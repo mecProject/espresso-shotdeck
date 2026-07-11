@@ -1,0 +1,48 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.55-full.tar.gz",
+    "install_tree_sha256": "6e3687abb5fafb644aedf7d489f5d2331d8693bcde5d193998acefcb9f06e437",
+    "sha256": "9d57dece8bcd53f38b238260927c78226fe162fce569ee415ac7193d17643a13",
+    "size": 48882568,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.55-full.tar.gz"
+  },
+  "min_updater_version": "0.2.0",
+  "notes": [
+    "Added new Home/Brewing UIs (minimal and weight focused)"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "5c76af7a324c78b86e3aa67a7ae493af96e48998e0c48017db9d4e7fa028bcca",
+    "source_commit": "8e1ca6b618abe1fe61c2d9670b25c38adeb31891",
+    "source_tree_sha256": "5026d3f60a7abd731e89f3e8dd2fe9b51211a06f25905fc993f9f6513c69207b",
+    "version": "0.1.55"
+  },
+  "released_at": "2026-07-11T17:57:39.558711+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "WnDcylcicT/DPQAPmcyTt11PLaMh5F2NIjopoZIuCM6lFEDR+thLs0YG9XhjO6oCZrYJBWv/TeigDXNArHzVDg=="
+  },
+  "version": "0.1.55"
+}
