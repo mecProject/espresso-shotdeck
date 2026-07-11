@@ -1,0 +1,48 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.58-full.tar.gz",
+    "install_tree_sha256": "2d94048c0156150ffee9c4cc446a299d2f2c2334c2427cfef434bafa1ff7213d",
+    "sha256": "5258cc541195f0dffcf167991528f7ae6f790521027cd9a5ca2524d308681fb2",
+    "size": 48908524,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.58-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Clear stale update prompts after a newer version is installed"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "e4ba110f757e15a851376f9bb60968ca0920dfddda14e3a6b262f02b179c1b17",
+    "source_commit": "c499b35dcb9635e24eff2aed04dea5679a1e439f",
+    "source_tree_sha256": "807cb52a35b2065155ee5c5106882642d4f3b87c05b2477b45937048a5dd982c",
+    "version": "0.1.58"
+  },
+  "released_at": "2026-07-11T23:08:04.734672+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "1CVJMJ/WSvECqa0Ml0hGZR/f1MFVvDeSbbBxTKPHzR+ST4RRq8+XrvfQS1SesLrcfmBRoYfFb1zsKK4gnYDoAg=="
+  },
+  "version": "0.1.58"
+}
