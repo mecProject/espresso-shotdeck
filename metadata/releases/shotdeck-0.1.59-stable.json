@@ -1,0 +1,48 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.59-full.tar.gz",
+    "install_tree_sha256": "5f918b5496d92df24fff1e7a473df069f8d75b1534c315d09103fb7170e10570",
+    "sha256": "594f00936b86209bea5fe2649671c0bdfc1362993b55b88d8a86404909aa9062",
+    "size": 48975809,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.59-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Clear stale update prompts after a newer version is installed"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "8e0aaedab0d432bafea198641c4754007a04c0aa9e8b636d0705f85e08abb05e",
+    "source_commit": "24f73e43c25c2d8ddeb27b5d70c2a69226c4fd65",
+    "source_tree_sha256": "e6473e5411fc9b6b4db4f8390ecb8597f1e8eb7d5ad6285a0ddbf63cf364ddd2",
+    "version": "0.1.59"
+  },
+  "released_at": "2026-07-12T09:17:09.693853+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "1JmMkCO997gShTgd87gGYnPMKmRFE0pY3EKPCwo6bH2cZoIVHMyf8p6iWeUolM69MMqkA0HHkoVgzuXKQJM0Ag=="
+  },
+  "version": "0.1.59"
+}
