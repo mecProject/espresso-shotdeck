@@ -6,8 +6,20 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-07-12T19:33:10Z",
+  "issued_at": "2026-07-12T20:00:49Z",
   "notifications": [
+    {
+      "dismissible": true,
+      "expires_at": "2026-07-19T22:00:00Z",
+      "id": "customer-notice-20260712-0a4d8cba",
+      "message": "This a simple test",
+      "message_de": "Das ist ein einfacher Test",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Test-English",
+      "title_de": "Test-Deutsch"
+    },
     {
       "dismissible": true,
       "expires_at": "2026-07-13T19:30:00Z",
@@ -23,12 +35,12 @@
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 1,
+  "sequence": 2,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "J3MjNySfjOmob/1ClSF/z7evfCh9JEFMsD2sP53ZtkUFDpUNP3+tLtG60XX6w6Vr+qfJ5cDvL0Hra5wSH3oXDQ=="
+    "value": "QOa7yi420T1gFuEHoTgpdM2erMvgA1CLBme31gSFLdEtm9GJF/XEc6WUH3z3aR29/wJOc9m6F4rhu3o3TqRtDA=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-08-12T19:33:10Z"
+  "valid_until": "2026-08-12T20:00:49Z"
 }
