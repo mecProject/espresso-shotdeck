@@ -1,0 +1,34 @@
+{
+  "audience": {
+    "sale_types": [
+      "internal"
+    ]
+  },
+  "document_type": "com.espresso-shotdeck.customer-notification-feed",
+  "feed_id": "production",
+  "issued_at": "2026-07-12T19:33:10Z",
+  "notifications": [
+    {
+      "dismissible": true,
+      "expires_at": "2026-07-13T19:30:00Z",
+      "id": "internal-ui-test-20260712-a7f3e8d1",
+      "message": "Please confirm this test message on the Shotdeck device and web UI.",
+      "message_de": "Bitte diesen Testhinweis auf dem Shotdeck-Geraet und in der Web-Oberflaeche bestaetigen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Internal notification test",
+      "title_de": "Interner Benachrichtigungstest"
+    }
+  ],
+  "product": "shotdeck",
+  "schema_version": 1,
+  "sequence": 1,
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ca5997ea0fbfabe2",
+    "value": "J3MjNySfjOmob/1ClSF/z7evfCh9JEFMsD2sP53ZtkUFDpUNP3+tLtG60XX6w6Vr+qfJ5cDvL0Hra5wSH3oXDQ=="
+  },
+  "trust_epoch": 1,
+  "valid_until": "2026-08-12T19:33:10Z"
+}
