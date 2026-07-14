@@ -1,0 +1,50 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.64-full.tar.gz",
+    "install_tree_sha256": "c9c903f78d91bcfeb1ea07e0862e279e38f184082e91fb67de4c51fe7b65664d",
+    "sha256": "ea46777dd365b5e51c00864459101f4724e7d2cbce6a3d2a363ae852c8d03c94",
+    "size": 50136822,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.64-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Add encrypted backup and transactional restore support",
+    "Add scheduled backups to supported personal cloud drives",
+    "Use GPIO18 kernel hardware PWM to prevent backlight flicker under CPU load"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "afda8a823049eb8def02f1410e5926cd9c03115cbd487bff9f952f13503aa82a",
+    "source_commit": "4facd0400c7da73f1392aa638047f8e61aefc9b0",
+    "source_tree_sha256": "9398c7fafc121830c7f24d69c26a37bc62db8311fc13628f07ced148697b195a",
+    "version": "0.1.64"
+  },
+  "released_at": "2026-07-14T23:45:28.386316+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "fU1/V68S3LEFv/CPzmX/LakJaf4t/KaS8d5QSAKWp/pT/7DuZR6JATtoZCqHO7KZ8y9PCE5fOXf1Rsh6hTyiBw=="
+  },
+  "version": "0.1.64"
+}
