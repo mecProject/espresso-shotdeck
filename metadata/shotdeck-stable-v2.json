@@ -1,18 +1,14 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.64-full.tar.gz",
-    "install_tree_sha256": "c9c903f78d91bcfeb1ea07e0862e279e38f184082e91fb67de4c51fe7b65664d",
-    "sha256": "ea46777dd365b5e51c00864459101f4724e7d2cbce6a3d2a363ae852c8d03c94",
-    "size": 50136822,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.64-full.tar.gz"
+    "filename": "shotdeck-0.1.65-full.tar.gz",
+    "install_tree_sha256": "5f2893a0be848af61a6f6ad86a006e3169d521cc88a3dc7a42e2f095ae2cf3e3",
+    "sha256": "6e60afd5000b78934b564aabf2ce889df1d6635084292d244305a715461dc5c2",
+    "size": 50140171,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.65-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
-  "notes": [
-    "Add encrypted backup and transactional restore support",
-    "Add scheduled backups to supported personal cloud drives",
-    "Use GPIO18 kernel hardware PWM to prevent backlight flicker under CPU load"
-  ],
+  "notes": [],
   "patch_artifacts": [],
   "product": "shotdeck",
   "provenance": {
@@ -20,12 +16,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "afda8a823049eb8def02f1410e5926cd9c03115cbd487bff9f952f13503aa82a",
-    "source_commit": "4facd0400c7da73f1392aa638047f8e61aefc9b0",
-    "source_tree_sha256": "9398c7fafc121830c7f24d69c26a37bc62db8311fc13628f07ced148697b195a",
-    "version": "0.1.64"
+    "sbom_sha256": "383791889898844cd3e15be519439c958e51f087df2d3ce1cafa14e2a6c1bb8e",
+    "source_commit": "68eb8fe35c4bdc8000bbed7e7ff2c14be4070e0a",
+    "source_tree_sha256": "d97476ff9df236387621c3fb7800f81d17c996f4ec31936bc05ef2a5e975dfd8",
+    "version": "0.1.65"
   },
-  "released_at": "2026-07-14T23:45:28.386316+00:00",
+  "released_at": "2026-07-15T06:12:18.027003+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -44,7 +40,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "fU1/V68S3LEFv/CPzmX/LakJaf4t/KaS8d5QSAKWp/pT/7DuZR6JATtoZCqHO7KZ8y9PCE5fOXf1Rsh6hTyiBw=="
+    "value": "ceuRcFlGFCxn/P/YC/7J8ON9ul7dy+ob3+D2d26vykmJkByTM3wo+Tl2liApoW4WjDgQdT9BVTdhYS4QDoQzBg=="
   },
-  "version": "0.1.64"
+  "version": "0.1.65"
 }
