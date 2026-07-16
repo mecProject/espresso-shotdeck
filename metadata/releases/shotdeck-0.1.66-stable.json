@@ -1,0 +1,50 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.66-full.tar.gz",
+    "install_tree_sha256": "d16dbee2d601d4c2642f0185802ead058f75f79cb949e978d6104c3882d4f921",
+    "sha256": "cb2bda733d4f735f46b09c6619eab147e14e5ce7d895e986784bb7b879815565",
+    "size": 50294754,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.66-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Add scale-free Cleaning mode and local five-cycle backflush",
+    "Preserve Search slogan with profile and Cleaning selection",
+    "Add physical and software control-off wake flow"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "860dff42a288af07131a3f5ae02f4331652666946f39d0ccc120f7e1e7cd061d",
+    "source_commit": "8f59762cd439d30ede51c6106d8f434dc5c8bc69",
+    "source_tree_sha256": "784d61f87e8f24623a8129960ca5130d66758487d26415bedb0dc84463cb1af7",
+    "version": "0.1.66"
+  },
+  "released_at": "2026-07-16T22:47:39.568822+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "Oeme32bxQjLVuXr3aITCbr8LXZM+d9u6lon4e9kzNoZ9eT3nUh+OVkpJsgSzxrv5NVCaliR8ssA/ogTe/NkUDg=="
+  },
+  "version": "0.1.66"
+}
