@@ -1,0 +1,48 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.67-full.tar.gz",
+    "install_tree_sha256": "8dd268a0df1785620e21f8a54171bc4d0f17f27299a15d5c3bd0098663a2b903",
+    "sha256": "64010a6748e3d70ec1b2f6bb60a5d690eec1c7b82402f53201f2b245d815aced",
+    "size": 50543581,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.67-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Guided Cleaning and La Marzocco pre-brewing safety"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "55c0c612edde24df71737701e04677f31a5f19389b96856f3268def9900b6ef9",
+    "source_commit": "46621d48b57fdcb623dfd8eec5a479b9e2eb9437",
+    "source_tree_sha256": "39559eee32b0ec4f33cef9cbd48ef4a15d3c56d8386b5f193e5b855ed32ea254",
+    "version": "0.1.67"
+  },
+  "released_at": "2026-07-17T11:39:01.947706+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "guSWFSZlIIuUUky9TzdBymSHNpcXqSk6bo8MhbqD6IjJetNInwJivo3eXNXmPlVwaX3ooIl41JMWGiLinTVtAw=="
+  },
+  "version": "0.1.67"
+}
