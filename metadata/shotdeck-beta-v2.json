@@ -1,0 +1,56 @@
+{
+  "channel": "beta",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.69-full.tar.gz",
+    "install_tree_sha256": "27b4e9e98221de1931e2e727661f39ab80a69d59d697468cbd68cc9ca6da0542",
+    "sha256": "c8c5df471705c46b3da07c80c971c1133c4b2b8ad71fc9c4856c946762e8b0dd",
+    "size": 50857699,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.69-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Canary: quick-paddle rinse and faster profile machine-setting apply",
+    "Beta allowlisted to one test device"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "527369053dcfcaf392e48c810e669933372f77103a795928de54ff3cd24e77cf",
+    "source_commit": "fddc6b0dd6c48a9891b9502cb39f5628b0f8a17c",
+    "source_tree_sha256": "2715e83dbe71fbf3be4db825ff5bd125a9e7af5b878d455bb260355baf76e41d",
+    "version": "0.1.69"
+  },
+  "released_at": "2026-07-23T17:13:25.207218+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist": {
+      "sha256": "6a12b6e68bdeb907bf0a00427ed34839e9e98ee22324969e7006de990fd06fb1",
+      "size": 640,
+      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/shotdeck-0.1.69-beta-allowlist.json"
+    },
+    "allowlist_tags": [],
+    "channels": [
+      "beta"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": [
+      "raspberry-pi-zero-2-w-rev-1-0"
+    ]
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "W6OmCBTvNUAPYoMNu97Fwu/MbGLrD1w1J0lnjp4EDDtDVi5A9fb0EcSC1o7rAG/QktXvga7SLMmLtAG+orCdBw=="
+  },
+  "version": "0.1.69"
+}
