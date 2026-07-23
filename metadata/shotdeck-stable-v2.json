@@ -1,15 +1,16 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.68-full.tar.gz",
-    "install_tree_sha256": "09994445ce27cebb1e7f8a013c8c9e163c13d91c439be7e7f2b571d8afb082b5",
-    "sha256": "9a78df6b7a0a49c657a5e87a36c4e84685c04d5177d7fca7d563de2173bf7ecb",
-    "size": 50557421,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.68-full.tar.gz"
+    "filename": "shotdeck-canary-0.1.69-full.tar.gz",
+    "install_tree_sha256": "64623822bec4825de3acb525d4bb157b6bb073f59b2fa4cda3d5b4e5e325cb8f",
+    "sha256": "2b4b6799e743345326e779bc5f01d45e80182e4bcd19c6815036203d04792ddb",
+    "size": 50859796,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-canary-0.1.69-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Nextcloud backups and polished backup/restore controls"
+    "Kelvin canary: quick-paddle rinse, faster profile apply, and web rinse settings",
+    "Explicit one-device stable canary: do not treat this pointer as a full-fleet promotion."
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -18,12 +19,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "8fe3889133870e660f6eab3459139bf3a355ca57409e70b0e25ca5f1382a1ed6",
-    "source_commit": "3038a745ed07fb806a0e561432c2dfe51624834a",
-    "source_tree_sha256": "4aea699d4a79b7482d12a320b9a6ee693ffc14a137135a46863ea79fbdf12a0a",
-    "version": "0.1.68"
+    "sbom_sha256": "19a2fe14a8ec426229fac643706b6c340ffb2fc9c5338259e879932adc8736ca",
+    "source_commit": "4f980bb86189f8c6ad3d7ec7ccdf4feae138b01b",
+    "source_tree_sha256": "53d93a2851adcac5a6db12b9c88177c15be7ba40851bd16da9726aaaa3c0fd59",
+    "version": "0.1.69"
   },
-  "released_at": "2026-07-21T20:48:59.041788+00:00",
+  "released_at": "2026-07-23T22:02:50.728575+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -31,18 +32,25 @@
   },
   "rollout": {
     "allow_downgrade": false,
+    "allowlist": {
+      "sha256": "47c736c95cb8d7f79c405ec6a4d9e153599f12fc70aadad839d438303eaf8be3",
+      "size": 373,
+      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/shotdeck-0.1.69-stable-allowlist.json"
+    },
     "allowlist_tags": [],
     "channels": [
       "stable"
     ],
     "device_fingerprints": [],
-    "hardware_groups": []
+    "hardware_groups": [
+      "raspberry-pi-zero-2-w-rev-1-0"
+    ]
   },
   "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "kKSayXofjNCunw6fJnbSQJYMpgCLbogXMAN2KkbFfh/MhfwZoBwdRMdTOmGND33Lef6kwwXjRPDVMCHRgAYQCQ=="
+    "value": "1TExj9FDX9pb/wZFBgjEcfufHZ7l2pAk4Klqw68ZpYqlTn0YurpgRvTBbtiE555GAM6+aPkYWpjwfn4qXKEvBA=="
   },
-  "version": "0.1.68"
+  "version": "0.1.69"
 }
