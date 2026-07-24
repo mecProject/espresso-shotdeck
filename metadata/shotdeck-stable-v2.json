@@ -1,16 +1,18 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-canary-0.1.69-full.tar.gz",
-    "install_tree_sha256": "64623822bec4825de3acb525d4bb157b6bb073f59b2fa4cda3d5b4e5e325cb8f",
-    "sha256": "2b4b6799e743345326e779bc5f01d45e80182e4bcd19c6815036203d04792ddb",
-    "size": 50859796,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-canary-0.1.69-full.tar.gz"
+    "filename": "shotdeck-0.1.70-full.tar.gz",
+    "install_tree_sha256": "7ffaf63688aa3e863ce646b98700624192653540aafd44c5a2ef544a14f584c4",
+    "sha256": "1b3aab157f496b1ad93fdb24b0ea57969d51eacedf90a91efeebe4d236e3ed94",
+    "size": 50871832,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.70-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Kelvin canary: quick-paddle rinse, faster profile apply, and web rinse settings",
-    "Explicit one-device stable canary: do not treat this pointer as a full-fleet promotion."
+    "Quick-paddle rinse with Linea Mini native and Shotdeck-timed modes",
+    "Faster profile machine-settings application with clear status feedback",
+    "Stable and beta update preference in touch and web settings",
+    "Rinse completion returns to the originating tab"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -19,12 +21,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "19a2fe14a8ec426229fac643706b6c340ffb2fc9c5338259e879932adc8736ca",
-    "source_commit": "4f980bb86189f8c6ad3d7ec7ccdf4feae138b01b",
-    "source_tree_sha256": "53d93a2851adcac5a6db12b9c88177c15be7ba40851bd16da9726aaaa3c0fd59",
-    "version": "0.1.69"
+    "sbom_sha256": "c2885e4034bffe2277aaaea6379c2543733454f2057014f0b0149d1d60cce53d",
+    "source_commit": "8095d69ff944dd2e577b789484679c34a92b6354",
+    "source_tree_sha256": "933b79730f02bb6ae5335cdf5bdb4d0ccc9b8f9040a1d79c0875cc7988564125",
+    "version": "0.1.70"
   },
-  "released_at": "2026-07-23T22:02:50.728575+00:00",
+  "released_at": "2026-07-24T11:07:33.417823+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -32,25 +34,18 @@
   },
   "rollout": {
     "allow_downgrade": false,
-    "allowlist": {
-      "sha256": "47c736c95cb8d7f79c405ec6a4d9e153599f12fc70aadad839d438303eaf8be3",
-      "size": 373,
-      "url": "https://mecproject.github.io/espresso-shotdeck/metadata/shotdeck-0.1.69-stable-allowlist.json"
-    },
     "allowlist_tags": [],
     "channels": [
       "stable"
     ],
     "device_fingerprints": [],
-    "hardware_groups": [
-      "raspberry-pi-zero-2-w-rev-1-0"
-    ]
+    "hardware_groups": []
   },
   "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "1TExj9FDX9pb/wZFBgjEcfufHZ7l2pAk4Klqw68ZpYqlTn0YurpgRvTBbtiE555GAM6+aPkYWpjwfn4qXKEvBA=="
+    "value": "w2w3Prjsbpr5si00GMQBGZv9GcHJbDFQ/jN0KFRZIq1VvrTkYiXc9H7KXQZQfJOyCCEddHc3CDSAPzXHWgp4Ag=="
   },
-  "version": "0.1.69"
+  "version": "0.1.70"
 }

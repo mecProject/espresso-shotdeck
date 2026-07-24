@@ -1,0 +1,51 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.70-full.tar.gz",
+    "install_tree_sha256": "7ffaf63688aa3e863ce646b98700624192653540aafd44c5a2ef544a14f584c4",
+    "sha256": "1b3aab157f496b1ad93fdb24b0ea57969d51eacedf90a91efeebe4d236e3ed94",
+    "size": 50871832,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.70-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Quick-paddle rinse with Linea Mini native and Shotdeck-timed modes",
+    "Faster profile machine-settings application with clear status feedback",
+    "Stable and beta update preference in touch and web settings",
+    "Rinse completion returns to the originating tab"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "c2885e4034bffe2277aaaea6379c2543733454f2057014f0b0149d1d60cce53d",
+    "source_commit": "8095d69ff944dd2e577b789484679c34a92b6354",
+    "source_tree_sha256": "933b79730f02bb6ae5335cdf5bdb4d0ccc9b8f9040a1d79c0875cc7988564125",
+    "version": "0.1.70"
+  },
+  "released_at": "2026-07-24T11:07:33.417823+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "w2w3Prjsbpr5si00GMQBGZv9GcHJbDFQ/jN0KFRZIq1VvrTkYiXc9H7KXQZQfJOyCCEddHc3CDSAPzXHWgp4Ag=="
+  },
+  "version": "0.1.70"
+}
