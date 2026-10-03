@@ -1,21 +1,22 @@
 {
   "audience": {
     "sale_types": [
-      "internal"
+      "control_box_bundle",
+      "software_only"
     ]
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-09-30T15:55:41Z",
+  "issued_at": "2026-10-03T19:53:17Z",
   "notifications": [],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 3,
+  "sequence": 4,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "v2T4Y88+N1JmUH5orjeHCLai9HFlRAP3YSklfaEW9TmMixGBvmKZxwKjxlR4UqeAxPQVYmTc4W/Glq+/RpDaBQ=="
+    "value": "ZtiK0Tt1I3KPcAhiZjNg2Yz+QOh0jI3iJSNXBhRFGZEXA6aBdd1N6/VV2qCW/B/59fRZ3GIyFYJvv8jyLs6jDQ=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-10-31T15:55:41Z"
+  "valid_until": "2026-11-03T19:53:17Z"
 }
