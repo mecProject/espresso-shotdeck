@@ -1,18 +1,19 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.70-full.tar.gz",
-    "install_tree_sha256": "7ffaf63688aa3e863ce646b98700624192653540aafd44c5a2ef544a14f584c4",
-    "sha256": "1b3aab157f496b1ad93fdb24b0ea57969d51eacedf90a91efeebe4d236e3ed94",
-    "size": 50871832,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.70-full.tar.gz"
+    "filename": "shotdeck-0.1.71-full.tar.gz",
+    "install_tree_sha256": "008f045b1ee993c4b91aa98d9cc9cf3bb70f26fe6add5bb9ab97e1b6b7ca26b9",
+    "sha256": "e28faac79bad0495c03ac7efd45d681661971b6791ad18cbc3f8b2a5bf003748",
+    "size": 51438333,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.71-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Quick-paddle rinse with Linea Mini native and Shotdeck-timed modes",
-    "Faster profile machine-settings application with clear status feedback",
-    "Stable and beta update preference in touch and web settings",
-    "Rinse completion returns to the originating tab"
+    "E64 Grind-by-Sync with guided connection setup, automatic readiness, grinder recovery and recipe inspection",
+    "Shot history now includes Grind-by-Sync details and shot analysis for mobile and wide screens",
+    "More reliable overshoot learning with recipe isolation and settled final-weight handling",
+    "Profile-driven pre-brewing with a clear Off state and improved decimal input for ideal-flow tables",
+    "Paddle wake, tare cutoff, scale-free rinse and cleaning-screen fixes"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -21,12 +22,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "c2885e4034bffe2277aaaea6379c2543733454f2057014f0b0149d1d60cce53d",
-    "source_commit": "8095d69ff944dd2e577b789484679c34a92b6354",
-    "source_tree_sha256": "933b79730f02bb6ae5335cdf5bdb4d0ccc9b8f9040a1d79c0875cc7988564125",
-    "version": "0.1.70"
+    "sbom_sha256": "980bd5305902567876c5360c6b07f034e0fa0fe6f4b22257f270b124ce727bd2",
+    "source_commit": "3ffa9c5686b3711ba2557f2c8d8f77e73ab1b1bd",
+    "source_tree_sha256": "2add42034426c2f7451150420626f784da87f3cac5cd91023163fbb020e2d031",
+    "version": "0.1.71"
   },
-  "released_at": "2026-07-24T11:07:33.417823+00:00",
+  "released_at": "2026-10-03T19:37:31.790092+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -45,7 +46,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "w2w3Prjsbpr5si00GMQBGZv9GcHJbDFQ/jN0KFRZIq1VvrTkYiXc9H7KXQZQfJOyCCEddHc3CDSAPzXHWgp4Ag=="
+    "value": "aX+E598rn0syrpfI4/cnMW1JqqUrrt1HedSrOFMj4ixLED3QvYa5VHjYD+vxEf8PPzr7ZGC9W19QkaXtQsegDQ=="
   },
-  "version": "0.1.70"
+  "version": "0.1.71"
 }

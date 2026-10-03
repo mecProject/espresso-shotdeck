@@ -1,0 +1,52 @@
+{
+  "channel": "stable",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.71-full.tar.gz",
+    "install_tree_sha256": "008f045b1ee993c4b91aa98d9cc9cf3bb70f26fe6add5bb9ab97e1b6b7ca26b9",
+    "sha256": "e28faac79bad0495c03ac7efd45d681661971b6791ad18cbc3f8b2a5bf003748",
+    "size": 51438333,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.71-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "E64 Grind-by-Sync with guided connection setup, automatic readiness, grinder recovery and recipe inspection",
+    "Shot history now includes Grind-by-Sync details and shot analysis for mobile and wide screens",
+    "More reliable overshoot learning with recipe isolation and settled final-weight handling",
+    "Profile-driven pre-brewing with a clear Off state and improved decimal input for ideal-flow tables",
+    "Paddle wake, tare cutoff, scale-free rinse and cleaning-screen fixes"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "980bd5305902567876c5360c6b07f034e0fa0fe6f4b22257f270b124ce727bd2",
+    "source_commit": "3ffa9c5686b3711ba2557f2c8d8f77e73ab1b1bd",
+    "source_tree_sha256": "2add42034426c2f7451150420626f784da87f3cac5cd91023163fbb020e2d031",
+    "version": "0.1.71"
+  },
+  "released_at": "2026-10-03T19:37:31.790092+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "aX+E598rn0syrpfI4/cnMW1JqqUrrt1HedSrOFMj4ixLED3QvYa5VHjYD+vxEf8PPzr7ZGC9W19QkaXtQsegDQ=="
+  },
+  "version": "0.1.71"
+}
