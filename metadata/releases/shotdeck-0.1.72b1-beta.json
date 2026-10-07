@@ -1,0 +1,55 @@
+{
+  "channel": "beta",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.72b1-full.tar.gz",
+    "install_tree_sha256": "dd3f7fcf317445e8a537e544b8740a2888f85317a4be65ad740b7f04c4829c0c",
+    "sha256": "fa4f11718d2b1012251a8746250bffb0e98ed22791441ffa9f82988355419d73",
+    "size": 51487128,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.72b1-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Bluetooth scale reconnection fixes and cleanup for Bookoo, Felicita and Acaia",
+    "Bounded Micra Bluetooth retries with backoff; cloud updates continue",
+    "Idle recovery when the Bluetooth adapter becomes powered off"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "4e7dc2f7a7a5ddb6dd75e8dd72927222e6aaad9c9d48dd3459bc0a9ebb6012a2",
+    "source_commit": "de6e24532ba0a6f283d157f605d578f2fd7228e2",
+    "source_tree_sha256": "c0158ff3f3681e6f86116e28f2b85a02e7544e35112a1e368b9d5bd6fdae5c64",
+    "version": "0.1.72b1"
+  },
+  "released_at": "2026-10-07T14:52:57.464494+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "beta"
+    ],
+    "device_fingerprints": [
+      "18c32657a1bbf9f08a929d9de44ddf73c771e1b36b7c31c7c89b3dcb597a6095",
+      "4d41414f923ea29a2caa0a16821f3685d92e9455af1f581c5431a715eb975d5c",
+      "6a85f8d8e6d7d9eedec831d5fc096bae6fb5934fa50234be6d1a8cbc64fcf52c",
+      "9176218eb6359ab1c35d79828ae6965434cf0dd10eee5564c26354a9fb2a48d7"
+    ],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "XqfOTx4q1jnW2luI0b8JKQk/xROUEbC3x2xpROOnOKihQVaK4mOKChM1oxzhmu7yuzCDeAhQV2nRps0EZoDiDw=="
+  },
+  "version": "0.1.72b1"
+}
