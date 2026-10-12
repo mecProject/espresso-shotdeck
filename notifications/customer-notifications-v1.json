@@ -7,7 +7,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-10-03T19:53:21Z",
+  "issued_at": "2026-10-12T16:28:02Z",
   "notifications": [
     {
       "dismissible": true,
@@ -20,16 +20,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.1.71 available",
       "title_de": "Shotdeck 0.1.71 verf\u00fcgbar"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-11-11T16:28:02Z",
+      "id": "shotdeck-update-0.1.72",
+      "message": "Shotdeck 0.1.72 improves Bluetooth scale reconnection and keeps brew control responsive during Wi-Fi checks. E64 Grind-by-Sync now supports rinsing after dose confirmation. Save shot screenshots with optional analysis from the web app, view clearer shot charts, and keep your shot history without the previous 90-day expiry. Open Update settings to install.",
+      "message_de": "Shotdeck 0.1.72 verbessert die Bluetooth-Wiederverbindung der Waage und h\u00e4lt die Bezugssteuerung bei WLAN-Pr\u00fcfungen reaktionsf\u00e4hig. E64 Grind-by-Sync unterst\u00fctzt jetzt Sp\u00fclen nach der Dosisbest\u00e4tigung. In der Web-App lassen sich Shot-Screenshots mit optionaler Analyse speichern. Shot-Diagramme sind besser lesbar, und die Bezugshistorie bleibt ohne die bisherige 90-Tage-L\u00f6schung erhalten. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.1.72 available",
+      "title_de": "Shotdeck 0.1.72 verf\u00fcgbar"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 5,
+  "sequence": 6,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "nuZ5eQpqyIrxEaNTycbJapdDjKcy0o+fB7ZFyi4tUFqxyt8cETKQpndZBUyIfb94f+bB85wZBwNOOL4sw/U8CQ=="
+    "value": "9IruUshw9zU2nKcWBJiL0b9UIRyVlaA6wZCh4unvz/qOKimBe/3VCBrqBfKCOwKt8/wW84D3sMgAxOU5SXBPBQ=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-11-03T19:53:21Z"
+  "valid_until": "2026-11-12T16:28:02Z"
 }
