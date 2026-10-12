@@ -7,20 +7,8 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-10-12T16:28:02Z",
+  "issued_at": "2026-10-12T16:28:05Z",
   "notifications": [
-    {
-      "dismissible": true,
-      "expires_at": "2026-11-02T19:53:21Z",
-      "id": "shotdeck-update-0.1.71",
-      "message": "Shotdeck now supports Grind-by-Sync for the Mahlk\u00f6nig E64 WS grinder. This update also improves shot analysis, overshoot learning, profile pre-brewing, paddle wake/tare, rinse and cleaning. Open Update settings to install.",
-      "message_de": "Shotdeck unterst\u00fctzt jetzt Grind-by-Sync f\u00fcr die Mahlk\u00f6nig E64 WS M\u00fchle. Verbessert wurden Shot-Analyse, Overshoot-Lernen, Profil-Pre-Brewing, Paddle-Aufwachen/Tarieren, Sp\u00fclen und Reinigung. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
-      "revision": 1,
-      "severity": "info",
-      "starts_at": "",
-      "title": "Shotdeck 0.1.71 available",
-      "title_de": "Shotdeck 0.1.71 verf\u00fcgbar"
-    },
     {
       "dismissible": true,
       "expires_at": "2026-11-11T16:28:02Z",
@@ -36,12 +24,12 @@
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 6,
+  "sequence": 7,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "9IruUshw9zU2nKcWBJiL0b9UIRyVlaA6wZCh4unvz/qOKimBe/3VCBrqBfKCOwKt8/wW84D3sMgAxOU5SXBPBQ=="
+    "value": "SHXS3tQDeZ8VVTHVYTBlqpa/tZKQBSjVXxG/xtNvSUhBPzNyuF9UumuUBniM79ICSSLlhe52Rwbi9gLfaWJRBA=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-11-12T16:28:02Z"
+  "valid_until": "2026-11-12T16:28:05Z"
 }
