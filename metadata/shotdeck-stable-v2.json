@@ -1,20 +1,21 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.72-full.tar.gz",
-    "install_tree_sha256": "2143c45fd82d4c84450ef77c97df9cefb6c881eadb48744fe9d043c2deeb9ee7",
-    "sha256": "b357a7905c081555cb2a09ef0c238a0dd08ba00e2ce0a4be2d5a3711c529ba6f",
-    "size": 51520050,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.72-full.tar.gz"
+    "filename": "shotdeck-0.1.74-full.tar.gz",
+    "install_tree_sha256": "6d76930ab061bab7804f4cfe66f047b8f2c6876a9fb38fe8db976661227dc1ff",
+    "sha256": "40476d956228fcbadf50e4b000eabfc3ec86d8ca8c8f719a2337209f6cbfb7d5",
+    "size": 51868922,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.74-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "More reliable Bluetooth scale reconnection and recovery, with bounded La Marzocco Micra Bluetooth retries",
-    "Brew control remains responsive during Wi-Fi status checks",
-    "E64 Grind-by-Sync supports a rinse after dose confirmation within the original brew-start window",
-    "Save shot screenshots with profile notes and optional analysis from the web app",
-    "Improved shot chart scaling and brew-by-time display without a scale",
-    "Shot history and learning evidence no longer expire after 90 days; manual shot deletion remains available"
+    "Fix shot-chart flow baseline after the shot-start tare",
+    "Choose and save one specific Bluetooth scale from the device or paired web app",
+    "Rename the saved scale without changing its Bluetooth identity or sending a tare; names appear in device and web views and optional scale-binding backups",
+    "Switch Wi-Fi off and on while retaining saved networks; Bluetooth and Ethernet remain available",
+    "Improved paddle-start handling and setup-hotspot compatibility",
+    "The web app remains usable when a configured La Marzocco machine is offline",
+    "Notification dismissals are shared between the physical display and paired browsers"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -23,12 +24,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "f413fd5c490941f6205f803ed0570d448848b619e9622436e893a8f1f8c09eab",
-    "source_commit": "bb8ccaa4a2913628456d77d08352a34b399c339d",
-    "source_tree_sha256": "0adc9dd127e807018ba1ca2c8c42786424ba61ba5aca250947bc0eecef9498b4",
-    "version": "0.1.72"
+    "sbom_sha256": "5bb41802186e72aa42248c25db6e42b11c427d47c16b00bd241bb954357ff864",
+    "source_commit": "6c705316d3fb54aef5b0c8e610317f2360160b27",
+    "source_tree_sha256": "48e0687ef18152ba35b935705011f00eab68c009ea30776ad15fa10794c0b759",
+    "version": "0.1.74"
   },
-  "released_at": "2026-10-12T16:14:32.804159+00:00",
+  "released_at": "2026-10-19T10:46:32.543447+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -47,7 +48,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "TDE9NiVCI+Au5PpYz1LUpDBhbvc4+7GQ7vjYWkWbFQu/7pbSxypB+bigWXrCh0lvepi27WZy2NjRGTp3uG5PDQ=="
+    "value": "M1dxj/58hleVRtv51VpKDKrGtml0YimO3x5SaJQc91Yvv32rmSDWn/HHk8ag4picxSKw6hUk1ILJX8M22dTTAg=="
   },
-  "version": "0.1.72"
+  "version": "0.1.74"
 }

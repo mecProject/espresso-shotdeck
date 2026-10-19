@@ -1,0 +1,54 @@
+{
+  "channel": "beta",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.74-full.tar.gz",
+    "install_tree_sha256": "6d76930ab061bab7804f4cfe66f047b8f2c6876a9fb38fe8db976661227dc1ff",
+    "sha256": "40476d956228fcbadf50e4b000eabfc3ec86d8ca8c8f719a2337209f6cbfb7d5",
+    "size": 51868922,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.74-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Fix shot-chart flow baseline after the shot-start tare",
+    "Choose and save one specific Bluetooth scale from the device or paired web app",
+    "Rename the saved scale without changing its Bluetooth identity or sending a tare; names appear in device and web views and optional scale-binding backups",
+    "Switch Wi-Fi off and on while retaining saved networks; Bluetooth and Ethernet remain available",
+    "Improved paddle-start handling and setup-hotspot compatibility",
+    "The web app remains usable when a configured La Marzocco machine is offline",
+    "Notification dismissals are shared between the physical display and paired browsers"
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "5bb41802186e72aa42248c25db6e42b11c427d47c16b00bd241bb954357ff864",
+    "source_commit": "6c705316d3fb54aef5b0c8e610317f2360160b27",
+    "source_tree_sha256": "48e0687ef18152ba35b935705011f00eab68c009ea30776ad15fa10794c0b759",
+    "version": "0.1.74"
+  },
+  "released_at": "2026-10-19T10:46:32.543447+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "beta"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "p8AyIgB+mW8MuK4/LPHoXTlstpKf0jELngNUpbOa9Gix4qtp6HX+6zEi3/AyADZEuvZlbM6Ilienz8HzaeRvCA=="
+  },
+  "version": "0.1.74"
+}
