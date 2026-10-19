@@ -7,16 +7,29 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-10-19T06:22:20Z",
-  "notifications": [],
+  "issued_at": "2026-10-19T10:52:18Z",
+  "notifications": [
+    {
+      "dismissible": true,
+      "expires_at": "2026-11-18T10:52:18Z",
+      "id": "shotdeck-update-0.1.74",
+      "message": "Shotdeck 0.1.74 corrects the shot chart at brew start. Choose and name a specific Bluetooth scale from the device or paired web app. Wi-Fi can be switched off and on without losing saved networks. This update also improves paddle-start handling and Wi-Fi setup, keeps the web app usable when your La Marzocco is offline, and shares notification dismissals across the display and paired browsers. Open Update settings to install.",
+      "message_de": "Shotdeck 0.1.74 korrigiert das Shot-Diagramm beim Bezugsstart. W\u00e4hle und benenne eine bestimmte Bluetooth-Waage am Ger\u00e4t oder in der Web-App. WLAN l\u00e4sst sich aus- und einschalten; Netzwerke bleiben gespeichert. Das Update verbessert die Verarbeitung von Paddelstarts und die WLAN-Einrichtung. Die Web-App bleibt bei nicht erreichbarer La Marzocco nutzbar. Geschlossene Hinweise werden auf Display und gekoppelten Browsern gemeinsam ausgeblendet. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.1.74 available",
+      "title_de": "Shotdeck 0.1.74 verf\u00fcgbar"
+    }
+  ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 10,
+  "sequence": 11,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "L+Z/qFmSEzADgtXsv5g3B0ziXAgnxf+JPz6Wwe/615XA8e1NheL2+kTffyhgM+qW0WSmpuEh08r2ZGGESIknCw=="
+    "value": "1LZ95uMMV8xeCrs+NCtFoLRdirAAQvWkTmwCTnzsstB55n/Mf5xj7Yg4xZhGvjFgEexfoysCkpIMyIdB7uSSAA=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-11-19T06:22:20Z"
+  "valid_until": "2026-11-19T10:52:18Z"
 }
