@@ -7,29 +7,16 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-10-19T06:12:01Z",
-  "notifications": [
-    {
-      "dismissible": true,
-      "expires_at": "2026-11-18T06:12:01Z",
-      "id": "shotdeck-update-0.1.73",
-      "message": "Shotdeck 0.1.73 lets you select and save a specific Bluetooth scale. Switch Wi-Fi off or on from the device or paired web app. This update also improves paddle-start handling and Wi-Fi setup, keeps the web app usable when your La Marzocco is offline, and shares notification dismissals between the display and paired browsers. Open Update settings to install.",
-      "message_de": "Mit Shotdeck 0.1.73 kannst du eine bestimmte Bluetooth-Waage ausw\u00e4hlen und speichern. WLAN l\u00e4sst sich am Ger\u00e4t oder in der gekoppelten Web-App aus- und einschalten. Das Update verbessert die Verarbeitung von Paddelstarts und die WLAN-Einrichtung. Die Web-App bleibt auch bei nicht erreichbarer La Marzocco nutzbar. Geschlossene Hinweise werden auf Display und gekoppelten Browsern gemeinsam ausgeblendet. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
-      "revision": 1,
-      "severity": "info",
-      "starts_at": "",
-      "title": "Shotdeck 0.1.73 available",
-      "title_de": "Shotdeck 0.1.73 verf\u00fcgbar"
-    }
-  ],
+  "issued_at": "2026-10-19T06:22:20Z",
+  "notifications": [],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 9,
+  "sequence": 10,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "RxqJHRFHR8bep0BqvONl8iwlcfNvnXx+zDA2gp9yC07xwdBTSiF67JBqk71tilPTe7FfMmsGvCn58ladIPUiDA=="
+    "value": "L+Z/qFmSEzADgtXsv5g3B0ziXAgnxf+JPz6Wwe/615XA8e1NheL2+kTffyhgM+qW0WSmpuEh08r2ZGGESIknCw=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-11-19T06:12:01Z"
+  "valid_until": "2026-11-19T06:22:20Z"
 }
