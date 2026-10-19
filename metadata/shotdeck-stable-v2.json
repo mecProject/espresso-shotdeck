@@ -1,19 +1,20 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.73-full.tar.gz",
-    "install_tree_sha256": "6412c90099fa19de8928eaa0b97ae9db8e334247f605eda9afb5c81beae60678",
-    "sha256": "1f026897edbe3224c80f1675ab1c856beb33c3b56aa25d721bbf367d745bf626",
-    "size": 51849323,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.73-full.tar.gz"
+    "filename": "shotdeck-0.1.72-full.tar.gz",
+    "install_tree_sha256": "2143c45fd82d4c84450ef77c97df9cefb6c881eadb48744fe9d043c2deeb9ee7",
+    "sha256": "b357a7905c081555cb2a09ef0c238a0dd08ba00e2ce0a4be2d5a3711c529ba6f",
+    "size": 51520050,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.72-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Choose and save one specific Bluetooth scale from the device or paired web app; automatic compatible-scale connection remains the default",
-    "Switch Wi-Fi off and on while retaining saved networks; Bluetooth and Ethernet remain available",
-    "Improved paddle-start handling and setup-hotspot compatibility",
-    "The web app remains usable when a configured La Marzocco machine is offline",
-    "Notification dismissals are shared between the physical display and paired browsers"
+    "More reliable Bluetooth scale reconnection and recovery, with bounded La Marzocco Micra Bluetooth retries",
+    "Brew control remains responsive during Wi-Fi status checks",
+    "E64 Grind-by-Sync supports a rinse after dose confirmation within the original brew-start window",
+    "Save shot screenshots with profile notes and optional analysis from the web app",
+    "Improved shot chart scaling and brew-by-time display without a scale",
+    "Shot history and learning evidence no longer expire after 90 days; manual shot deletion remains available"
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -22,12 +23,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "e33cb9f0d797013fad76acc7e09e097b59b6a63da2a7b30f7ec1da8a3a2f9399",
-    "source_commit": "b39b5a6325b0370d0481177434b6cb0ec23e53eb",
-    "source_tree_sha256": "7dbad5eb56018bffe61e2b399cb396ccb00a2f900471bc16be5f203c30de2df6",
-    "version": "0.1.73"
+    "sbom_sha256": "f413fd5c490941f6205f803ed0570d448848b619e9622436e893a8f1f8c09eab",
+    "source_commit": "bb8ccaa4a2913628456d77d08352a34b399c339d",
+    "source_tree_sha256": "0adc9dd127e807018ba1ca2c8c42786424ba61ba5aca250947bc0eecef9498b4",
+    "version": "0.1.72"
   },
-  "released_at": "2026-10-19T06:06:04.342235+00:00",
+  "released_at": "2026-10-12T16:14:32.804159+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -46,7 +47,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "Urp575rCvzLveUzr8rGDjX5xUkMS+ikoqTqX6mlFVoROGdayXxTAwG7lH+imfYM25ehmQO7UjJJiVX80O1cVBQ=="
+    "value": "TDE9NiVCI+Au5PpYz1LUpDBhbvc4+7GQ7vjYWkWbFQu/7pbSxypB+bigWXrCh0lvepi27WZy2NjRGTp3uG5PDQ=="
   },
-  "version": "0.1.73"
+  "version": "0.1.72"
 }
