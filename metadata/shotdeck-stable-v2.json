@@ -1,21 +1,19 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.75-full.tar.gz",
-    "install_tree_sha256": "a263d41a6f37e9238767446619351f5012b334db899c8c100f5a6952b3a219ed",
-    "sha256": "a4b8ee90d638a8877447db4a15de134de13d3ce688a757e5f435c909f595bf55",
-    "size": 51914336,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.75-full.tar.gz"
+    "filename": "shotdeck-0.1.76-full.tar.gz",
+    "install_tree_sha256": "c7f018d1f8d0180c40672dc1ac273b188ab1053f6893870bf4e2304b4eeb094b",
+    "sha256": "e71ff47a325e4ed6a69f8556bdd2f2162f5022390af0bb012419ce4a309c3b9b",
+    "size": 51992208,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.76-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Adjust target weight or brew time with +/- controls on the device Home screen.",
-    "Quickly edit target, time, roast, pre-brewing and supported La Marzocco coffee/steam settings from the web Brew screen.",
-    "Remember the web language choice and share it across paired browsers.",
-    "Keep the saved brew-temperature target with each shot in history and screenshot exports.",
-    "Restore configured display sleep when La Marzocco is disconnected or unavailable.",
-    "Improve 3.5-inch touchscreen startup and recovery.",
-    "Correct La Marzocco steam OFF and verify boiler enable state when applying profile settings."
+    "Adjust target weight or brew time directly from the 3.5-inch Weight focus Home view.",
+    "Follow extraction timing feedback in the Weight focus view.",
+    "Show scale battery percentage and configure low-battery reminders on the display and in the web app.",
+    "Export shot-history PDF reports with a selected date range from the web app.",
+    "Correct tare-related spikes in saved-shot weight/flow charts and analysis."
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -24,12 +22,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "4e772cb6f47d8d16034456b081100af4c96f8dfa48433a86286b347781b44cb9",
-    "source_commit": "2821f74606e16b10c446073063ae15bfc10037b9",
-    "source_tree_sha256": "b11f36219d4f26d358bf6a9bdcf99d0d6247066d908bc7c3bf9a4ba277fae720",
-    "version": "0.1.75"
+    "sbom_sha256": "bad7a41c695ad44c41db35780f6f5708996f3c421f475a104b4041973c22022c",
+    "source_commit": "597a66001bf145e7bd95bb58e45e7ef2bf7bdd7a",
+    "source_tree_sha256": "71dea1377cda93fc59a2ca22b263afca13f6f39476f3b6a8a40a015e757c10d1",
+    "version": "0.1.76"
   },
-  "released_at": "2026-10-21T21:46:24.765344+00:00",
+  "released_at": "2026-10-26T15:44:47.012458+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -48,7 +46,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "KS+T/03HZgbcupsNCliU/TCwbLEZQ5qHwEsmJKMzZx9YtS/z884KM2/h127dyM8sbfXhJE2JQ4TcnA5goZwdDA=="
+    "value": "grae+LcE6DrHJ85KIy0bLPIJJQlzWX4EQJVTdFgO3sWLhtTUXYm7x8rzBbMENGyUkKfyfBwgij1gBeKd9olgDg=="
   },
-  "version": "0.1.75"
+  "version": "0.1.76"
 }
