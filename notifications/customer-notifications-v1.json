@@ -7,20 +7,8 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-10-26T16:54:30Z",
+  "issued_at": "2026-10-26T16:54:34Z",
   "notifications": [
-    {
-      "dismissible": true,
-      "expires_at": "2026-11-20T21:52:14Z",
-      "id": "shotdeck-update-0.1.75",
-      "message": "Shotdeck 0.1.75 adds +/- target controls on the display and quick editing from the web Brew screen. Your language choice is shared across paired browsers, and saved shots retain their brew-temperature target. This update also fixes display sleep when La Marzocco is disconnected, improves touchscreen startup and recovery, and corrects La Marzocco steam OFF. Open Update settings to install.",
-      "message_de": "Shotdeck 0.1.75 bietet +/- Zielwert-Tasten am Display und die Schnellbearbeitung auf der Brew-Seite der Web-App. Die Sprachwahl gilt f\u00fcr alle gekoppelten Browser; gespeicherte Bez\u00fcge behalten ihre Soll-Br\u00fchtemperatur. Das Update korrigiert den Display-Ruhezustand bei nicht verbundener La Marzocco, verbessert Touchscreen-Start und -Wiederherstellung und behebt La Marzocco Dampf AUS. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
-      "revision": 1,
-      "severity": "info",
-      "starts_at": "",
-      "title": "Shotdeck 0.1.75 available",
-      "title_de": "Shotdeck 0.1.75 verf\u00fcgbar"
-    },
     {
       "dismissible": true,
       "expires_at": "2026-11-25T16:54:30Z",
@@ -36,12 +24,12 @@
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 14,
+  "sequence": 15,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "XH3zHqOFgeD1qXA6ACbWsV2MtbiMCvMsSCdLvEsR9r+4T0DjyXi32e2MgLh+nnHC/QWtSM+5nsvMtPH2cQXZBw=="
+    "value": "JK5xXRlfF3hZj1ElJpLvBowXQqLyh7SSTbaOj6tfQlNpAz7q1JjEOF/NAlc+6aFjePSvXKqrbXK/Jzynuy/aAg=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-11-26T16:54:30Z"
+  "valid_until": "2026-11-26T16:54:34Z"
 }
