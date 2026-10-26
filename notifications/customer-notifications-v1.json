@@ -7,7 +7,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-10-21T21:52:18Z",
+  "issued_at": "2026-10-26T16:54:30Z",
   "notifications": [
     {
       "dismissible": true,
@@ -20,16 +20,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.1.75 available",
       "title_de": "Shotdeck 0.1.75 verf\u00fcgbar"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-11-25T16:54:30Z",
+      "id": "shotdeck-update-0.1.76",
+      "message": "Shotdeck 0.1.76 adds target controls and extraction timing feedback to the Weight focus view. Scale battery percentage and low-battery reminders are now configurable. Export PDF shot reports for a selected date range from the web app. Saved-shot charts and analysis now handle tare-related spikes correctly. Open Update settings to install.",
+      "message_de": "Shotdeck 0.1.76 erg\u00e4nzt Zielwert-Tasten und R\u00fcckmeldungen zum Extraktionsverlauf in der Gewichtsfokus-Ansicht. Batterieprozent und Warnungen bei niedrigem Waagenakku sind jetzt einstellbar. In der Web-App lassen sich PDF-Bezugsberichte f\u00fcr einen gew\u00e4hlten Zeitraum exportieren. Tarabedingte Spitzen in gespeicherten Bezugskurven und Analysen werden korrigiert. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.1.76 available",
+      "title_de": "Shotdeck 0.1.76 verf\u00fcgbar"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 13,
+  "sequence": 14,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "hpEgYmtvzQZyUjr+af5r3099YGW5QByucrNZq0TUxY/r5OdiBUjxFMmKQcxWx7Gvyq9WsPt9ZqtMdh3gjFRLDQ=="
+    "value": "XH3zHqOFgeD1qXA6ACbWsV2MtbiMCvMsSCdLvEsR9r+4T0DjyXi32e2MgLh+nnHC/QWtSM+5nsvMtPH2cQXZBw=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-11-21T21:52:18Z"
+  "valid_until": "2026-11-26T16:54:30Z"
 }
