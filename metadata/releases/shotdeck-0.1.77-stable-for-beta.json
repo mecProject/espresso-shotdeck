@@ -1,0 +1,52 @@
+{
+  "channel": "beta",
+  "full_artifact": {
+    "filename": "shotdeck-0.1.77-full.tar.gz",
+    "install_tree_sha256": "3e7ea23f577c7a1426abbb64e5f4e106816fd69aa4375fccb7293c015048dbe0",
+    "sha256": "18ac82775ffc0563d9a38ae5f6dda041d869d75fe25b87753c32373cced601f0",
+    "size": 52234252,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.77-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Manage beans and grinders, including burr and RPM options, in the web app.",
+    "Save preparation details and profile defaults, and attach grinder-setting photos to shots.",
+    "Filter and sort shot history and include preparation details and optional photos in exports.",
+    "Improve touch-display rendering, web loading, history scrolling and navigation to selected shot graphs.",
+    "Include coffee catalogues, preparation records and shot photos in encrypted backups."
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "f342d521fcded8342fb98272e4f72fc89f2ca42700deef6813c4fd2d8291f189",
+    "source_commit": "6def7b4517cbd6ccd9dc6881f6f297e7f5669339",
+    "source_tree_sha256": "c947b679f0afd1479067ede7609439469b531ad42379078636cc63b567e57242",
+    "version": "0.1.77"
+  },
+  "released_at": "2026-10-28T22:30:19.117100+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "beta"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "nCE99pz/qCd3RMe3PWw/tUqh2O25SHKQGlXHDq57EGOyt9icq+509wSCj8PkflI3EjZRne7A+8vA6qqphuMcDA=="
+  },
+  "version": "0.1.77"
+}
