@@ -7,7 +7,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-10-26T16:54:34Z",
+  "issued_at": "2026-10-28T22:39:09Z",
   "notifications": [
     {
       "dismissible": true,
@@ -20,16 +20,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.1.76 available",
       "title_de": "Shotdeck 0.1.76 verf\u00fcgbar"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-11-27T22:39:09Z",
+      "id": "shotdeck-update-0.1.77",
+      "message": "Shotdeck 0.1.77 adds bean and grinder catalogues, preparation details and grinder-setting photos for your shots. Save preparation defaults in profiles, filter and sort shot history, and include details and optional photos in exports. Touch-display navigation, web loading and history scrolling are faster. Selecting a shot reveals its graph. Coffee records and shot photos are included in encrypted backups. Open Update settings to install.",
+      "message_de": "Shotdeck 0.1.77 erg\u00e4nzt Bohnen- und M\u00fchlenlisten, Zubereitungsangaben und Mahlgradfotos zu deinen Bez\u00fcgen. Speichere Vorgaben in Profilen, filtere und sortiere den Verlauf und exportiere Angaben und auf Wunsch Fotos. Touch-Navigation, Web-App und Verlauf laden schneller. Die Bezugsauswahl zeigt direkt die Kurve. Kaffeeangaben und Bezugsfotos sind in verschl\u00fcsselten Backups enthalten. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.1.77 available",
+      "title_de": "Shotdeck 0.1.77 verf\u00fcgbar"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 15,
+  "sequence": 16,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "JK5xXRlfF3hZj1ElJpLvBowXQqLyh7SSTbaOj6tfQlNpAz7q1JjEOF/NAlc+6aFjePSvXKqrbXK/Jzynuy/aAg=="
+    "value": "/LcYlYuXmO4/WWzkIBXvUJvyrfWf6v9BGqsttdvk/TKZnrrrFjgKSdHNT3rK9wmrBFx5HuQAa0qrVFqUPbOACg=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-11-26T16:54:34Z"
+  "valid_until": "2026-11-28T22:39:09Z"
 }
