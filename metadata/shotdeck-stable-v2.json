@@ -1,19 +1,19 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.1.76-full.tar.gz",
-    "install_tree_sha256": "c7f018d1f8d0180c40672dc1ac273b188ab1053f6893870bf4e2304b4eeb094b",
-    "sha256": "e71ff47a325e4ed6a69f8556bdd2f2162f5022390af0bb012419ce4a309c3b9b",
-    "size": 51992208,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.76-full.tar.gz"
+    "filename": "shotdeck-0.1.77-full.tar.gz",
+    "install_tree_sha256": "3e7ea23f577c7a1426abbb64e5f4e106816fd69aa4375fccb7293c015048dbe0",
+    "sha256": "18ac82775ffc0563d9a38ae5f6dda041d869d75fe25b87753c32373cced601f0",
+    "size": 52234252,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.77-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Adjust target weight or brew time directly from the 3.5-inch Weight focus Home view.",
-    "Follow extraction timing feedback in the Weight focus view.",
-    "Show scale battery percentage and configure low-battery reminders on the display and in the web app.",
-    "Export shot-history PDF reports with a selected date range from the web app.",
-    "Correct tare-related spikes in saved-shot weight/flow charts and analysis."
+    "Manage beans and grinders, including burr and RPM options, in the web app.",
+    "Save preparation details and profile defaults, and attach grinder-setting photos to shots.",
+    "Filter and sort shot history and include preparation details and optional photos in exports.",
+    "Improve touch-display rendering, web loading, history scrolling and navigation to selected shot graphs.",
+    "Include coffee catalogues, preparation records and shot photos in encrypted backups."
   ],
   "patch_artifacts": [],
   "product": "shotdeck",
@@ -22,12 +22,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "bad7a41c695ad44c41db35780f6f5708996f3c421f475a104b4041973c22022c",
-    "source_commit": "597a66001bf145e7bd95bb58e45e7ef2bf7bdd7a",
-    "source_tree_sha256": "71dea1377cda93fc59a2ca22b263afca13f6f39476f3b6a8a40a015e757c10d1",
-    "version": "0.1.76"
+    "sbom_sha256": "f342d521fcded8342fb98272e4f72fc89f2ca42700deef6813c4fd2d8291f189",
+    "source_commit": "6def7b4517cbd6ccd9dc6881f6f297e7f5669339",
+    "source_tree_sha256": "c947b679f0afd1479067ede7609439469b531ad42379078636cc63b567e57242",
+    "version": "0.1.77"
   },
-  "released_at": "2026-10-26T15:44:47.012458+00:00",
+  "released_at": "2026-10-28T22:30:19.117100+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -46,7 +46,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "grae+LcE6DrHJ85KIy0bLPIJJQlzWX4EQJVTdFgO3sWLhtTUXYm7x8rzBbMENGyUkKfyfBwgij1gBeKd9olgDg=="
+    "value": "FLmcJAiu6ykElVg5u2TIaF9BLXkQwWna8eqAUHWvRqdjlsHV66TtkIiIc9SDtsMPyyD1a6+cT1ZnbSCfKZqSDg=="
   },
-  "version": "0.1.76"
+  "version": "0.1.77"
 }
