@@ -1,11 +1,11 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.2.1-full.tar.gz",
-    "install_tree_sha256": "9144176dd5ba41e4d58f0a2f7d53e95bc55cb44acb544a7f8d327b1ea95aa498",
-    "sha256": "2f6f20eb65bcd49dd7693002e2b76edde764364390db8c367bbecd2d8f776d56",
-    "size": 53200028,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.1-full.tar.gz"
+    "filename": "shotdeck-0.2.2-full.tar.gz",
+    "install_tree_sha256": "4257a5b78d9400afc29a75aa5a396881ff126122d4471bd2e93dc084a8d961ba",
+    "sha256": "0f871b0763f49c6837d8cc28b805a6d3091609449c5c4b2d7e3a20704264efd2",
+    "size": 53199989,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.2-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
@@ -24,12 +24,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "5d0574c367880b2aba45aa6a757bf3f5b49768599718c8d9c473879741a82cc8",
-    "source_commit": "020367b5bdfe87225a47aafa4f91a8f1063bc51d",
-    "source_tree_sha256": "93e2cd9c4142208fa4b1f426f08aecfb0d06eaca656cdb78215d62d7c7217117",
-    "version": "0.2.1"
+    "sbom_sha256": "29399f683b501612d4d829bdce5bff6c0b7213383b859b39dac0d71db6f53295",
+    "source_commit": "c4b5ddcc27fd8a423644ee381595950a0522acc7",
+    "source_tree_sha256": "da0af2423f3b374077076fef28f82910869ed4213cf572531a1c2e4317314544",
+    "version": "0.2.2"
   },
-  "released_at": "2026-11-05T17:49:42.245375+00:00",
+  "released_at": "2026-11-06T00:27:31.134041+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -48,7 +48,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "sCNgrVWO1PO6u/hqE4no5FDowykry8b71soc0MPwbhOX7v4cM3y8TqyVakerfdqX+bshukb6C3DRfqRjWuxAAQ=="
+    "value": "5/gkErDAG+LLmUM98HNPr64naY3208KOJUoS8jMZ2zLGDduv8IWOFmTxmcGX/zfM0yZteoKN+zaTMYCtvgP4DA=="
   },
-  "version": "0.2.1"
+  "version": "0.2.2"
 }

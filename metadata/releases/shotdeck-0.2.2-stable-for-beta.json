@@ -1,0 +1,54 @@
+{
+  "channel": "beta",
+  "full_artifact": {
+    "filename": "shotdeck-0.2.2-full.tar.gz",
+    "install_tree_sha256": "4257a5b78d9400afc29a75aa5a396881ff126122d4471bd2e93dc084a8d961ba",
+    "sha256": "0f871b0763f49c6837d8cc28b805a6d3091609449c5c4b2d7e3a20704264efd2",
+    "size": 53199989,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.2-full.tar.gz"
+  },
+  "min_updater_version": "0.2.1",
+  "notes": [
+    "Redesign the display and web app with clearer readouts, charts, navigation and responsive Brew, Shots, Machine and Settings screens.",
+    "Export shot journals as PDFs with summaries, shot logs, extraction charts, tasting notes and optional grinder photos, with export progress and result messages.",
+    "View device storage, select and review filtered shots for deletion, and reclaim freed history space.",
+    "Read release notes from the device or web update settings; stable releases also reach beta subscribers.",
+    "Show La Marzocco policy-action notices on the display and in the web app.",
+    "Improve scale battery indication, redraw the display completely after scale reconnection, and smooth live flow readouts using the configured averaging.",
+    "Restore the selected profile\u2019s last valid shot and graph on Home after restart, and keep searching-screen menus open with Always on enabled."
+  ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "29399f683b501612d4d829bdce5bff6c0b7213383b859b39dac0d71db6f53295",
+    "source_commit": "c4b5ddcc27fd8a423644ee381595950a0522acc7",
+    "source_tree_sha256": "da0af2423f3b374077076fef28f82910869ed4213cf572531a1c2e4317314544",
+    "version": "0.2.2"
+  },
+  "released_at": "2026-11-06T00:27:31.134041+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "beta"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "fdc7e04b458cd4f4",
+    "value": "6mqT4WirH34C6qhLMXbtbqetZeb39o3SP5y8awDCkDYUH6IyOgN0I4P9iWUSLXGKXByCoTa3mG2y++3qLmMbCg=="
+  },
+  "version": "0.2.2"
+}
