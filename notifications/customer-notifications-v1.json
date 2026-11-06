@@ -7,7 +7,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-05T17:56:00Z",
+  "issued_at": "2026-11-06T00:33:45Z",
   "notifications": [
     {
       "dismissible": true,
@@ -20,16 +20,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.2.1 available",
       "title_de": "Shotdeck 0.2.1 verf\u00fcgbar"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-06T00:33:45Z",
+      "id": "shotdeck-update-0.2.2",
+      "message": "Shotdeck 0.2.2 brings redesigned display and web screens, clearer shot readouts and charts, and shot-journal PDF exports. View storage, review and delete selected shots, and reclaim space. Read release notes in Update settings. Scale battery indication, display recovery after reconnection and live flow readouts are improved. Home restores the selected profile\u2019s last shot after restart. Open Update settings to install.",
+      "message_de": "Shotdeck 0.2.2 bringt neu gestaltete Display- und Web-Ansichten, klarere Bezugsanzeigen und Kurven sowie Shot-Journale als PDF. Pr\u00fcfe den Speicher, w\u00e4hle Bez\u00fcge zum L\u00f6schen aus und gib Speicherplatz frei. Die Update-Einstellungen zeigen die Neuerungen. Verbessert sind Akkuanzeige der Waage, Bildschirmaufbau nach dem Wiederverbinden und Live-Durchfluss. Nach einem Neustart zeigt Home den letzten Bezug des gew\u00e4hlten Profils. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.2 available",
+      "title_de": "Shotdeck 0.2.2 verf\u00fcgbar"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 19,
+  "sequence": 20,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "pELWGLIxVwVe0W1kFGpL2DLhhuO+2uRvwE0F0ZxBoET2OcwJlNC8bQK5aUu/cHdwCYYh5YJE6e7pYh4dUnqVCw=="
+    "value": "DsJRgKKSeOukET9APar5voWN+3M9o6XbvhdPRT9LRODM8pCKc0LN7KTPw7OQENj1X1UUTec8lQsNV1YJ68JTCA=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-06T17:56:00Z"
+  "valid_until": "2026-12-07T00:33:45Z"
 }
