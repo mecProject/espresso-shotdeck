@@ -7,7 +7,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-06T00:33:49Z",
+  "issued_at": "2026-11-07T12:53:31Z",
   "notifications": [
     {
       "dismissible": true,
@@ -20,16 +20,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.2.2 available",
       "title_de": "Shotdeck 0.2.2 verf\u00fcgbar"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-07T12:53:31Z",
+      "id": "shotdeck-update-0.2.3",
+      "message": "Shotdeck 0.2.3 includes the 0.2.2 redesign, clearer charts, shot-journal PDFs, storage cleanup and improved scale readouts. Home restores the last shot and shows its complete curve. New: scale-zero confirmation before brewing, notes for skipped updates, easier web access via shotdeck.local and QR code, reliable pairing PIN display and a System menu Close button. Rinse without an LM connection requires confirmation that machine pre-brewing is off. Open Update settings to install.",
+      "message_de": "Shotdeck 0.2.3 enth\u00e4lt aus 0.2.2 neue Ansichten, klarere Kurven, Shot-Journale als PDF, Speicherbereinigung und bessere Waagenanzeigen. Home l\u00e4dt den letzten Bezug mit vollst\u00e4ndiger Kurve. Neu: Nullpr\u00fcfung vor dem Bezug, Hinweise zu \u00fcbersprungenen Updates, Webzugang \u00fcber shotdeck.local und QR-Code, zuverl\u00e4ssige PIN-Anzeige und Schlie\u00dfen im System-Men\u00fc. Sp\u00fclen ohne LM-Verbindung erfordert die Best\u00e4tigung, dass die Maschinen-Vorbr\u00fchung aus ist. Zum Installieren die Update-Einstellungen \u00f6ffnen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.3 available \u2014 includes 0.2.2 highlights",
+      "title_de": "Shotdeck 0.2.3 verf\u00fcgbar \u2014 inklusive Neuerungen aus 0.2.2"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 21,
+  "sequence": 22,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "G+h2ZTfYVIh1vnFgsuZzWl0P9JqRBtSzrZsdSADdKMuoiik5DzDoZtATlM7vh6YFlbbfAasiCDw95Ml22IAQAg=="
+    "value": "pj9pL4XyU4qwhurqLiMxjv4KhXox+OszUc0KgUAGQ/KfncO4XUxdAG1CBrBymhAKUpI/IRXhDyR2Clfap1BRDw=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-07T00:33:49Z"
+  "valid_until": "2026-12-08T12:53:31Z"
 }
