@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "archive_source_commit": "fdac1a1dedeb7a042d62cb8378c3fbe93cd55352",
+  "note": "Archived signed manifests are preserved byte for byte. Their original Pages artifact links are no longer served for the archived binaries; use the checksum-pinned download entries here. Current feeds, permanent bridge and migration qualification dependencies retain their original URLs.",
+  "releases": [
+    {
+      "path": "artifacts/shotdeck-0.1.53-full.tar.gz",
+      "size": 48758466,
+      "sha256": "85e0145561c58b38f8e2dac216b12c9f26eb8c875fcb4f05dc94fef55fb418a7",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.53-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.53-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.55-full.tar.gz",
+      "size": 48882568,
+      "sha256": "9d57dece8bcd53f38b238260927c78226fe162fce569ee415ac7193d17643a13",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.55-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.55-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.56-full.tar.gz",
+      "size": 48882720,
+      "sha256": "5316666f17da96c761446f36747279002a18f1e8ed4714aa5257fd450ddecae8",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.56-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.56-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.57-full.tar.gz",
+      "size": 48902836,
+      "sha256": "1662da6dbaee8d1e73b05e6c19c3130b13ef2d7f7df375812e22332cabc4262a",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.57-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.57-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.58-full.tar.gz",
+      "size": 48908524,
+      "sha256": "5258cc541195f0dffcf167991528f7ae6f790521027cd9a5ca2524d308681fb2",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.58-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.58-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.59-full.tar.gz",
+      "size": 48975809,
+      "sha256": "594f00936b86209bea5fe2649671c0bdfc1362993b55b88d8a86404909aa9062",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.59-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.59-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.64-full.tar.gz",
+      "size": 50136822,
+      "sha256": "ea46777dd365b5e51c00864459101f4724e7d2cbce6a3d2a363ae852c8d03c94",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.64-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.64-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.65-full.tar.gz",
+      "size": 50140171,
+      "sha256": "6e60afd5000b78934b564aabf2ce889df1d6635084292d244305a715461dc5c2",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.65-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.65-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.66-full.tar.gz",
+      "size": 50294754,
+      "sha256": "cb2bda733d4f735f46b09c6619eab147e14e5ce7d895e986784bb7b879815565",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.66-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.66-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.67-full.tar.gz",
+      "size": 50543581,
+      "sha256": "64010a6748e3d70ec1b2f6bb60a5d690eec1c7b82402f53201f2b245d815aced",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.67-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.67-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.68-full.tar.gz",
+      "size": 50557421,
+      "sha256": "9a78df6b7a0a49c657a5e87a36c4e84685c04d5177d7fca7d563de2173bf7ecb",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.68-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.68-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.69-full.tar.gz",
+      "size": 50857699,
+      "sha256": "c8c5df471705c46b3da07c80c971c1133c4b2b8ad71fc9c4856c946762e8b0dd",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.69-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.69-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.70-full.tar.gz",
+      "size": 50871832,
+      "sha256": "1b3aab157f496b1ad93fdb24b0ea57969d51eacedf90a91efeebe4d236e3ed94",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.70-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.70-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.71-full.tar.gz",
+      "size": 51438333,
+      "sha256": "e28faac79bad0495c03ac7efd45d681661971b6791ad18cbc3f8b2a5bf003748",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.71-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.71-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.72-full.tar.gz",
+      "size": 51520050,
+      "sha256": "b357a7905c081555cb2a09ef0c238a0dd08ba00e2ce0a4be2d5a3711c529ba6f",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.72-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.72-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.72b1-full.tar.gz",
+      "size": 51487128,
+      "sha256": "fa4f11718d2b1012251a8746250bffb0e98ed22791441ffa9f82988355419d73",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.72b1-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.72b1-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.72b2-full.tar.gz",
+      "size": 51487630,
+      "sha256": "73ad24126a0b5b065eded060b5e0ca1e575aff2ee7f73b2f51b2d0a7b79b0b26",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.72b2-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.72b2-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.73-full.tar.gz",
+      "size": 51849323,
+      "sha256": "1f026897edbe3224c80f1675ab1c856beb33c3b56aa25d721bbf367d745bf626",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.73-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.73-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.74-full.tar.gz",
+      "size": 51868922,
+      "sha256": "40476d956228fcbadf50e4b000eabfc3ec86d8ca8c8f719a2337209f6cbfb7d5",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.74-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.74-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.75-full.tar.gz",
+      "size": 51914336,
+      "sha256": "a4b8ee90d638a8877447db4a15de134de13d3ce688a757e5f435c909f595bf55",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.75-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.75-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.76-full.tar.gz",
+      "size": 51992208,
+      "sha256": "e71ff47a325e4ed6a69f8556bdd2f2162f5022390af0bb012419ce4a309c3b9b",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.76-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.76-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.1.77-full.tar.gz",
+      "size": 52234252,
+      "sha256": "18ac82775ffc0563d9a38ae5f6dda041d869d75fe25b87753c32373cced601f0",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.1.77-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.1.77-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.2.1-full.tar.gz",
+      "size": 53200028,
+      "sha256": "2f6f20eb65bcd49dd7693002e2b76edde764364390db8c367bbecd2d8f776d56",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.1-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.2.1-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.2.2-full.tar.gz",
+      "size": 53199989,
+      "sha256": "0f871b0763f49c6837d8cc28b805a6d3091609449c5c4b2d7e3a20704264efd2",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.2-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.2.2-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.2.3-full.tar.gz",
+      "size": 53300936,
+      "sha256": "99f2a8f697228e811517f17cf30eeea9f929e3bbedccb442d4a558564beb4b6e",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.3-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.2.3-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.2.4-full.tar.gz",
+      "size": 54188770,
+      "sha256": "7f980483c98ccd001c9be8934c63862430ecebb7d65d541b46a61bef81fc71ed",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.2.4-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.2.4b1-full.tar.gz",
+      "size": 53967706,
+      "sha256": "614e6c1c307d2adf4e22511b558de4c75a843717c6a961013351de316c37611f",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4b1-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.2.4b1-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.2.4b2-full.tar.gz",
+      "size": 53989659,
+      "sha256": "563856415ff06c5570195d225cd6fa787434ee8542ca66985e652902484c9509",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4b2-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.2.4b2-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-0.2.5-full.tar.gz",
+      "size": 54188765,
+      "sha256": "cc035d53d4c3591dda3af168d752241acc3b826efc108aa8a76b3644a9bbbd82",
+      "pages_retained": true,
+      "download_url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.5-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-0.2.5-full.tar.gz"
+    },
+    {
+      "path": "artifacts/shotdeck-canary-0.1.69-full.tar.gz",
+      "size": 50859796,
+      "sha256": "2b4b6799e743345326e779bc5f01d45e80182e4bcd19c6815036203d04792ddb",
+      "pages_retained": false,
+      "download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-canary-0.1.69-full.tar.gz",
+      "immutable_git_download_url": "https://raw.githubusercontent.com/mecProject/espresso-shotdeck/fdac1a1dedeb7a042d62cb8378c3fbe93cd55352/artifacts/shotdeck-canary-0.1.69-full.tar.gz"
+    }
+  ]
+}

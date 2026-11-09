@@ -1,0 +1,21 @@
+# Keep active update and recovery downloads on Pages. Historical binaries remain in Git.
+exclude:
+  - artifacts/shotdeck-0.1.53-full.tar.gz
+  - artifacts/shotdeck-0.1.56-full.tar.gz
+  - artifacts/shotdeck-0.1.57-full.tar.gz
+  - artifacts/shotdeck-0.1.58-full.tar.gz
+  - artifacts/shotdeck-0.1.59-full.tar.gz
+  - artifacts/shotdeck-0.1.64-full.tar.gz
+  - artifacts/shotdeck-0.1.65-full.tar.gz
+  - artifacts/shotdeck-0.1.66-full.tar.gz
+  - artifacts/shotdeck-0.1.67-full.tar.gz
+  - artifacts/shotdeck-0.1.68-full.tar.gz
+  - artifacts/shotdeck-0.1.69-full.tar.gz
+  - artifacts/shotdeck-0.1.70-full.tar.gz
+  - artifacts/shotdeck-0.1.71-full.tar.gz
+  - artifacts/shotdeck-0.1.72-full.tar.gz
+  - artifacts/shotdeck-0.1.72b1-full.tar.gz
+  - artifacts/shotdeck-0.1.72b2-full.tar.gz
+  - artifacts/shotdeck-0.1.73-full.tar.gz
+  - artifacts/shotdeck-0.1.74-full.tar.gz
+  - artifacts/shotdeck-canary-0.1.69-full.tar.gz
