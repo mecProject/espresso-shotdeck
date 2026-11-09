@@ -6,16 +6,29 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-09T17:04:25Z",
-  "notifications": [],
+  "issued_at": "2026-11-09T17:04:34Z",
+  "notifications": [
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-09T17:04:34Z",
+      "id": "shotdeck-update-0.2.5",
+      "message": "Install through Update settings \u2192 Check for updates \u2192 Install now, or Settings \u2192 Software updates in the paired web interface. Shotdeck completes the update automatically and may restart several times. Keep power and internet connected. Your settings and perpetual licence terms are preserved; no licence upload or extra steps are required.",
+      "message_de": "Installiere \u00fcber Update settings \u2192 Check for updates \u2192 Install now oder Einstellungen \u2192 Software-Updates in der gekoppelten Weboberfl\u00e4che. Shotdeck schlie\u00dft das Update automatisch ab und startet gegebenenfalls mehrfach neu. Strom und Internet verbunden lassen. Einstellungen und unbefristete Lizenzbedingungen bleiben erhalten; kein Lizenz-Upload und keine weiteren Schritte n\u00f6tig.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.5 is available",
+      "title_de": "Shotdeck 0.2.5 ist verf\u00fcgbar"
+    }
+  ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 25,
+  "sequence": 26,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "fS6Pqg/wDxpI5tjZVKN7BdNNygtct1PvMipl46P95EUW+itBsU1lPMIpCJBtapD22FmnRUGV1JwG4NVbgbQXCg=="
+    "value": "CponWjx9j6GvlTzjoAHLWAOfj/7vV8sJ09w8yxjUY2leCET3OfVIYXirhPdESPCi5E5m7nY4C/eHZTnf+dY1Dw=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-10T17:04:25Z"
+  "valid_until": "2026-12-10T17:04:34Z"
 }
