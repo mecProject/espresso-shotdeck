@@ -1,20 +1,32 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.4b1-full.tar.gz",
-    "install_tree_sha256": "d7046bc918542344d1bd393f300b13176fa76bc9ad19467ea255af581b52367c",
-    "sha256": "614e6c1c307d2adf4e22511b558de4c75a843717c6a961013351de316c37611f",
-    "size": 53967706,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4b1-full.tar.gz"
+    "filename": "shotdeck-0.2.4-full.tar.gz",
+    "install_tree_sha256": "96376a70fe70b53b0f29e8e312964a5cc92959b3915123989d11966ff699ae3e",
+    "sha256": "7f980483c98ccd001c9be8934c63862430ecebb7d65d541b46a61bef81fc71ed",
+    "size": 54188770,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Show live scale weight on idle Home and add a dedicated Scale screen.",
-    "Fix frozen scrolling in web-interface modal sheets.",
-    "Add REV15-aware hardware profiles, guarded controls and provisioning foundations for testing.",
-    "Carry durable replacement licence public pins and a pinned update-migration policy; installing this beta does not activate migration or replace the installed licence."
+    "Complete the qualified update and perpetual-licence maintenance automatically after one normal update, with automatic idle-time restarts and retry while preparation is unavailable.",
+    "Show live scale weight on idle Home and open the dedicated Scale screen from the chart.",
+    "Improve modal scrolling, control-centre and menu closing, login text layout and danger-key outlines.",
+    "Improve update recovery, support reporting and provisioning checks while preserving settings and existing licence terms.",
+    "Support La Marzocco line-pressure pre-infusion profiles and rinse handling, with machine no-water warnings.",
+    "Account for pre-infusion when analyzing shots and calculating average extraction flow."
   ],
   "notes_history": [
+    {
+      "channel": "beta",
+      "notes": [
+        "Show live scale weight on idle Home and add a dedicated Scale screen.",
+        "Fix frozen scrolling in web-interface modal sheets.",
+        "Add REV15-aware hardware profiles, guarded controls and provisioning foundations for testing.",
+        "Carry durable replacement licence public pins and a pinned update-migration policy; installing this beta does not activate migration or replace the installed licence."
+      ],
+      "version": "0.2.4b1"
+    },
     {
       "channel": "stable",
       "notes": [
@@ -252,12 +264,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "1e8f00b06d52026803545f06423a6180768b11fdad5f9f387f080fa18d80ba78",
-    "source_commit": "6459f457e666e8398104dce5ed8b580994ca8e95",
-    "source_tree_sha256": "c2058337ab0a31c4082b6ea3565433b6b8c4402374547ba5176ac5a07311211f",
-    "version": "0.2.4b1"
+    "sbom_sha256": "5cbe0554f50d119496658589bc2d321b53c460b04a7061436e2248a9f72acc3b",
+    "source_commit": "7f9283839aada60c0a4bf6f76799215e047eafcd",
+    "source_tree_sha256": "19bb44bf34b117822ff01611a90ddf017c3428f5cfd2adf835e052e2f84b55f4",
+    "version": "0.2.4"
   },
-  "released_at": "2026-11-08T23:24:16.368328+00:00",
+  "released_at": "2026-11-09T15:04:01.454716+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -269,16 +281,14 @@
     "channels": [
       "beta"
     ],
-    "device_fingerprints": [
-      "ba95d11fff0612cbeb4805d6c851ec90ac4f9c1fe61a239c1b64854aa5bb4a20"
-    ],
+    "device_fingerprints": [],
     "hardware_groups": []
   },
   "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "9xp6324+zuTk1SKMXONkC+POP+uXnYM0dHwvcRtq5tl8pet/44hW+04bkZ2ZUJ3CAeYRd1EdNnjyR4kucFcXBw=="
+    "value": "5fE5UQ7+5bvEYIFvtIJ7ljMEBXwlRHBT2ofxAiqFhEJ8WiAV5deIhb28cOGAo3IjDAu2ltNWMpOz5lxe4+3tAQ=="
   },
-  "version": "0.2.4b1"
+  "version": "0.2.4"
 }

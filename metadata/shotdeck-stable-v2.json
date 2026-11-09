@@ -1,22 +1,34 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.2.3-full.tar.gz",
-    "install_tree_sha256": "48487a670f10adaf497a8e67a5dbe9f267b8968f919c42553ad2c6f5b0f36ef5",
-    "sha256": "99f2a8f697228e811517f17cf30eeea9f929e3bbedccb442d4a558564beb4b6e",
-    "size": 53300936,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.3-full.tar.gz"
+    "filename": "shotdeck-0.2.4-full.tar.gz",
+    "install_tree_sha256": "96376a70fe70b53b0f29e8e312964a5cc92959b3915123989d11966ff699ae3e",
+    "sha256": "7f980483c98ccd001c9be8934c63862430ecebb7d65d541b46a61bef81fc71ed",
+    "size": 54188770,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4-full.tar.gz"
   },
   "min_updater_version": "0.2.1",
   "notes": [
-    "Confirm that the scale has returned to zero before starting a brew; show a retry message if zeroing fails.",
-    "Show the complete saved shot curve on Home, including the end of the extraction.",
-    "Show notes for all available intervening releases when skipping updates, on the device and in the web interface.",
-    "Enable rinse without a La Marzocco connection after explicit confirmation that machine pre-brewing is disabled.",
-    "Add convenient shotdeck.local web access for existing devices and an Open web interface QR screen in Device info.",
-    "Fix pairing PIN display and add a separate Close control to the System menu."
+    "Complete the qualified update and perpetual-licence maintenance automatically after one normal update, with automatic idle-time restarts and retry while preparation is unavailable.",
+    "Show live scale weight on idle Home and open the dedicated Scale screen from the chart.",
+    "Improve modal scrolling, control-centre and menu closing, login text layout and danger-key outlines.",
+    "Improve update recovery, support reporting and provisioning checks while preserving settings and existing licence terms.",
+    "Support La Marzocco line-pressure pre-infusion profiles and rinse handling, with machine no-water warnings.",
+    "Account for pre-infusion when analyzing shots and calculating average extraction flow."
   ],
   "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Confirm that the scale has returned to zero before starting a brew; show a retry message if zeroing fails.",
+        "Show the complete saved shot curve on Home, including the end of the extraction.",
+        "Show notes for all available intervening releases when skipping updates, on the device and in the web interface.",
+        "Enable rinse without a La Marzocco connection after explicit confirmation that machine pre-brewing is disabled.",
+        "Add convenient shotdeck.local web access for existing devices and an Open web interface QR screen in Device info.",
+        "Fix pairing PIN display and add a separate Close control to the System menu."
+      ],
+      "version": "0.2.3"
+    },
     {
       "channel": "stable",
       "notes": [
@@ -223,12 +235,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "92c5c7bf45bb82a9f956311881e2b29e13bde55a342c6122ad5359e6c29d00a2",
-    "source_commit": "e58f409e212dcd305773725cd8181f41e5919607",
-    "source_tree_sha256": "fb0550487714ec1af732eb3de71b5885edf198d8f501cd344d7096867787b9d0",
-    "version": "0.2.3"
+    "sbom_sha256": "5cbe0554f50d119496658589bc2d321b53c460b04a7061436e2248a9f72acc3b",
+    "source_commit": "7f9283839aada60c0a4bf6f76799215e047eafcd",
+    "source_tree_sha256": "19bb44bf34b117822ff01611a90ddf017c3428f5cfd2adf835e052e2f84b55f4",
+    "version": "0.2.4"
   },
-  "released_at": "2026-11-07T12:33:06.407909+00:00",
+  "released_at": "2026-11-09T15:04:01.454716+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -247,7 +259,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "fdc7e04b458cd4f4",
-    "value": "dItp0xW7Zlnz47ekXALGbM96p/U/Ssls3+Wr4SQ1pa2d8vP2nQO3nNgCXZsLkISXMyOgtt3DNZDO8+WNPhY4BQ=="
+    "value": "ssVqWFLUatMxtmXofwMsbcsrP/c+eA9u7PFt1gNp0KMk2s68BRWlgn/RyWhbtQho8j6NQG7jBNP7YqEke4fdBQ=="
   },
-  "version": "0.2.3"
+  "version": "0.2.4"
 }
