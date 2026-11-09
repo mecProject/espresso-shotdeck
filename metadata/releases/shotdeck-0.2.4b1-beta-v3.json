@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.0",
+  "product": "shotdeck",
+  "channel": "beta",
+  "version": "0.2.4b1",
+  "released_at": "2026-11-08T23:24:16.368328+00:00",
+  "min_updater_version": "0.2.4",
+  "full_artifact": {
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4b1-full.tar.gz",
+    "sha256": "614e6c1c307d2adf4e22511b558de4c75a843717c6a961013351de316c37611f",
+    "size": 53967706,
+    "filename": "shotdeck-0.2.4b1-full.tar.gz",
+    "install_tree_sha256": "d7046bc918542344d1bd393f300b13176fa76bc9ad19467ea255af581b52367c"
+  },
+  "patch_artifacts": [],
+  "rollout": {
+    "channels": [
+      "beta"
+    ],
+    "hardware_groups": [],
+    "device_fingerprints": [
+      "ba95d11fff0612cbeb4805d6c851ec90ac4f9c1fe61a239c1b64854aa5bb4a20"
+    ],
+    "allowlist_tags": [],
+    "allow_downgrade": false
+  },
+  "rollback": {
+    "keep_versions": 2,
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20
+  },
+  "notes": [
+    "Show live scale weight on idle Home and add a dedicated Scale screen.",
+    "Fix frozen scrolling in web-interface modal sheets.",
+    "Add REV15-aware hardware profiles, guarded controls and provisioning foundations for testing.",
+    "Carry durable replacement licence public pins and a pinned update-migration policy; installing this beta does not activate migration or replace the installed licence."
+  ],
+  "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Confirm that the scale has returned to zero before starting a brew; show a retry message if zeroing fails.",
+        "Show the complete saved shot curve on Home, including the end of the extraction.",
+        "Show notes for all available intervening releases when skipping updates, on the device and in the web interface.",
+        "Enable rinse without a La Marzocco connection after explicit confirmation that machine pre-brewing is disabled.",
+        "Add convenient shotdeck.local web access for existing devices and an Open web interface QR screen in Device info.",
+        "Fix pairing PIN display and add a separate Close control to the System menu."
+      ],
+      "version": "0.2.3"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Redesign the display and web app with clearer readouts, charts, navigation and responsive Brew, Shots, Machine and Settings screens.",
+        "Export shot journals as PDFs with summaries, shot logs, extraction charts, tasting notes and optional grinder photos, with export progress and result messages.",
+        "View device storage, select and review filtered shots for deletion, and reclaim freed history space.",
+        "Read release notes from the device or web update settings; stable releases also reach beta subscribers.",
+        "Show La Marzocco policy-action notices on the display and in the web app.",
+        "Improve scale battery indication, redraw the display completely after scale reconnection, and smooth live flow readouts using the configured averaging.",
+        "Restore the selected profile\u2019s last valid shot and graph on Home after restart, and keep searching-screen menus open with Always on enabled."
+      ],
+      "version": "0.2.2"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Redesign the display and web app with clearer readouts, charts, navigation and responsive Brew, Shots, Machine and Settings screens.",
+        "Export shot journals as PDFs with summaries, shot logs, extraction charts, tasting notes and optional grinder photos, with export progress and result messages.",
+        "View device storage, select and review filtered shots for deletion, and reclaim freed history space.",
+        "Read release notes from the device or web update settings; stable releases also reach beta subscribers.",
+        "Show La Marzocco policy-action notices on the display and in the web app.",
+        "Improve scale battery indication, redraw the display completely after scale reconnection, and smooth live flow readouts using the configured averaging.",
+        "Restore the selected profile\u2019s last valid shot and graph on Home after restart, and keep searching-screen menus open with Always on enabled."
+      ],
+      "version": "0.2.1"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Manage beans and grinders, including burr and RPM options, in the web app.",
+        "Save preparation details and profile defaults, and attach grinder-setting photos to shots.",
+        "Filter and sort shot history and include preparation details and optional photos in exports.",
+        "Improve touch-display rendering, web loading, history scrolling and navigation to selected shot graphs.",
+        "Include coffee catalogues, preparation records and shot photos in encrypted backups."
+      ],
+      "version": "0.1.77"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Adjust target weight or brew time directly from the 3.5-inch Weight focus Home view.",
+        "Follow extraction timing feedback in the Weight focus view.",
+        "Show scale battery percentage and configure low-battery reminders on the display and in the web app.",
+        "Export shot-history PDF reports with a selected date range from the web app.",
+        "Correct tare-related spikes in saved-shot weight/flow charts and analysis."
+      ],
+      "version": "0.1.76"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Adjust target weight or brew time with +/- controls on the device Home screen.",
+        "Quickly edit target, time, roast, pre-brewing and supported La Marzocco coffee/steam settings from the web Brew screen.",
+        "Remember the web language choice and share it across paired browsers.",
+        "Keep the saved brew-temperature target with each shot in history and screenshot exports.",
+        "Restore configured display sleep when La Marzocco is disconnected or unavailable.",
+        "Improve 3.5-inch touchscreen startup and recovery.",
+        "Correct La Marzocco steam OFF and verify boiler enable state when applying profile settings."
+      ],
+      "version": "0.1.75"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Fix shot-chart flow baseline after the shot-start tare",
+        "Choose and save one specific Bluetooth scale from the device or paired web app",
+        "Rename the saved scale without changing its Bluetooth identity or sending a tare; names appear in device and web views and optional scale-binding backups",
+        "Switch Wi-Fi off and on while retaining saved networks; Bluetooth and Ethernet remain available",
+        "Improved paddle-start handling and setup-hotspot compatibility",
+        "The web app remains usable when a configured La Marzocco machine is offline",
+        "Notification dismissals are shared between the physical display and paired browsers"
+      ],
+      "version": "0.1.74"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Choose and save one specific Bluetooth scale from the device or paired web app; automatic compatible-scale connection remains the default",
+        "Switch Wi-Fi off and on while retaining saved networks; Bluetooth and Ethernet remain available",
+        "Improved paddle-start handling and setup-hotspot compatibility",
+        "The web app remains usable when a configured La Marzocco machine is offline",
+        "Notification dismissals are shared between the physical display and paired browsers"
+      ],
+      "version": "0.1.73"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "More reliable Bluetooth scale reconnection and recovery, with bounded La Marzocco Micra Bluetooth retries",
+        "Brew control remains responsive during Wi-Fi status checks",
+        "E64 Grind-by-Sync supports a rinse after dose confirmation within the original brew-start window",
+        "Save shot screenshots with profile notes and optional analysis from the web app",
+        "Improved shot chart scaling and brew-by-time display without a scale",
+        "Shot history and learning evidence no longer expire after 90 days; manual shot deletion remains available"
+      ],
+      "version": "0.1.72"
+    },
+    {
+      "channel": "beta",
+      "notes": [
+        "Bluetooth scale reconnection fixes and cleanup for Bookoo, Felicita and Acaia",
+        "Bounded Micra Bluetooth retries with backoff; cloud updates continue",
+        "Idle recovery when the Bluetooth adapter becomes powered off",
+        "Same Bluetooth recovery binary as 0.1.72b1; beta rollout includes shotdeck-35f-2"
+      ],
+      "version": "0.1.72b2"
+    },
+    {
+      "channel": "beta",
+      "notes": [
+        "Bluetooth scale reconnection fixes and cleanup for Bookoo, Felicita and Acaia",
+        "Bounded Micra Bluetooth retries with backoff; cloud updates continue",
+        "Idle recovery when the Bluetooth adapter becomes powered off"
+      ],
+      "version": "0.1.72b1"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "E64 Grind-by-Sync with guided connection setup, automatic readiness, grinder recovery and recipe inspection",
+        "Shot history now includes Grind-by-Sync details and shot analysis for mobile and wide screens",
+        "More reliable overshoot learning with recipe isolation and settled final-weight handling",
+        "Profile-driven pre-brewing with a clear Off state and improved decimal input for ideal-flow tables",
+        "Paddle wake, tare cutoff, scale-free rinse and cleaning-screen fixes"
+      ],
+      "version": "0.1.71"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Quick-paddle rinse with Linea Mini native and Shotdeck-timed modes",
+        "Faster profile machine-settings application with clear status feedback",
+        "Stable and beta update preference in touch and web settings",
+        "Rinse completion returns to the originating tab"
+      ],
+      "version": "0.1.70"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Kelvin canary: quick-paddle rinse, faster profile apply, and web rinse settings",
+        "Explicit one-device stable canary: do not treat this pointer as a full-fleet promotion."
+      ],
+      "version": "0.1.69"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Nextcloud backups and polished backup/restore controls"
+      ],
+      "version": "0.1.68"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Guided Cleaning and La Marzocco pre-brewing safety"
+      ],
+      "version": "0.1.67"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Add scale-free Cleaning mode and local five-cycle backflush",
+        "Preserve Search slogan with profile and Cleaning selection",
+        "Add physical and software control-off wake flow"
+      ],
+      "version": "0.1.66"
+    },
+    {
+      "channel": "stable",
+      "notes": [],
+      "version": "0.1.65"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Add encrypted backup and transactional restore support",
+        "Add scheduled backups to supported personal cloud drives",
+        "Use GPIO18 kernel hardware PWM to prevent backlight flicker under CPU load"
+      ],
+      "version": "0.1.64"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Clear stale update prompts after a newer version is installed"
+      ],
+      "version": "0.1.59"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Clear stale update prompts after a newer version is installed"
+      ],
+      "version": "0.1.58"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Clear stale update prompts after a newer version is installed"
+      ],
+      "version": "0.1.57"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Add initial secure updater check shortly after boot"
+      ],
+      "version": "0.1.56"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Added new Home/Brewing UIs (minimal and weight focused)"
+      ],
+      "version": "0.1.55"
+    }
+  ],
+  "provenance": {
+    "builder_architecture": "aarch64",
+    "builder_hostname": "shotdeck-dev",
+    "nuitka_version": "4.0.8",
+    "python_version": "Python 3.13.5",
+    "sbom_sha256": "1e8f00b06d52026803545f06423a6180768b11fdad5f9f387f080fa18d80ba78",
+    "source_commit": "6459f457e666e8398104dce5ed8b580994ca8e95",
+    "source_tree_sha256": "c2058337ab0a31c4082b6ea3565433b6b8c4402374547ba5176ac5a07311211f",
+    "version": "0.2.4b1"
+  },
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "1bdca8325d814999",
+    "value": "oHCvtjkNtwsFpuNdgnbAxQT1P7SoiBs2pnf0FCBy7JONgUACldzkGYONSSwjk9QWCy+QeypEsU7CtB0RTdq/Cg=="
+  }
+}
