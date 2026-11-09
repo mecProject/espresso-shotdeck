@@ -1,41 +1,34 @@
 {
-  "schema_version": "1.0",
-  "product": "shotdeck",
   "channel": "stable",
-  "version": "0.2.3",
-  "released_at": "2026-11-07T12:33:06.407909+00:00",
-  "min_updater_version": "0.2.4",
   "full_artifact": {
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.3-full.tar.gz",
-    "sha256": "99f2a8f697228e811517f17cf30eeea9f929e3bbedccb442d4a558564beb4b6e",
-    "size": 53300936,
-    "filename": "shotdeck-0.2.3-full.tar.gz",
-    "install_tree_sha256": "48487a670f10adaf497a8e67a5dbe9f267b8968f919c42553ad2c6f5b0f36ef5"
+    "filename": "shotdeck-0.2.5-full.tar.gz",
+    "install_tree_sha256": "c91bc1734509d480f5e6a6a3a853cc5c0100ede6229cfd342295b40773d68537",
+    "sha256": "cc035d53d4c3591dda3af168d752241acc3b826efc108aa8a76b3644a9bbbd82",
+    "size": 54188765,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.5-full.tar.gz"
   },
-  "patch_artifacts": [],
-  "rollout": {
-    "channels": [
-      "stable"
-    ],
-    "hardware_groups": [],
-    "device_fingerprints": [],
-    "allowlist_tags": [],
-    "allow_downgrade": false
-  },
-  "rollback": {
-    "keep_versions": 2,
-    "allow_manual_rollback": true,
-    "health_check_timeout_seconds": 20
-  },
+  "min_updater_version": "0.2.4",
   "notes": [
-    "Confirm that the scale has returned to zero before starting a brew; show a retry message if zeroing fails.",
-    "Show the complete saved shot curve on Home, including the end of the extraction.",
-    "Show notes for all available intervening releases when skipping updates, on the device and in the web interface.",
-    "Enable rinse without a La Marzocco connection after explicit confirmation that machine pre-brewing is disabled.",
-    "Add convenient shotdeck.local web access for existing devices and an Open web interface QR screen in Device info.",
-    "Fix pairing PIN display and add a separate Close control to the System menu."
+    "Complete the qualified update and perpetual-licence maintenance automatically after one normal update, with automatic idle-time restarts and retry while preparation is unavailable.",
+    "Show live scale weight on idle Home and open the dedicated Scale screen from the chart.",
+    "Improve modal scrolling, control-centre and menu closing, login text layout and danger-key outlines.",
+    "Improve update recovery, support reporting and provisioning checks while preserving settings and existing licence terms.",
+    "Support La Marzocco line-pressure pre-infusion profiles and rinse handling, with machine no-water warnings.",
+    "Account for pre-infusion when analyzing shots and calculating average extraction flow."
   ],
   "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Confirm that the scale has returned to zero before starting a brew; show a retry message if zeroing fails.",
+        "Show the complete saved shot curve on Home, including the end of the extraction.",
+        "Show notes for all available intervening releases when skipping updates, on the device and in the web interface.",
+        "Enable rinse without a La Marzocco connection after explicit confirmation that machine pre-brewing is disabled.",
+        "Add convenient shotdeck.local web access for existing devices and an Open web interface QR screen in Device info.",
+        "Fix pairing PIN display and add a separate Close control to the System menu."
+      ],
+      "version": "0.2.3"
+    },
     {
       "channel": "stable",
       "notes": [
@@ -235,19 +228,38 @@
       "version": "0.1.55"
     }
   ],
+  "patch_artifacts": [],
+  "product": "shotdeck",
   "provenance": {
     "builder_architecture": "aarch64",
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "92c5c7bf45bb82a9f956311881e2b29e13bde55a342c6122ad5359e6c29d00a2",
-    "source_commit": "e58f409e212dcd305773725cd8181f41e5919607",
-    "source_tree_sha256": "fb0550487714ec1af732eb3de71b5885edf198d8f501cd344d7096867787b9d0",
-    "version": "0.2.3"
+    "sbom_sha256": "6022bc2769834f1df04571f26022bddd2bb290c811ef5a6598a4924c4e63559e",
+    "source_commit": "7f9283839aada60c0a4bf6f76799215e047eafcd",
+    "source_tree_sha256": "19bb44bf34b117822ff01611a90ddf017c3428f5cfd2adf835e052e2f84b55f4",
+    "version": "0.2.5"
   },
+  "released_at": "2026-11-09T15:05:27.014028+00:00",
+  "rollback": {
+    "allow_manual_rollback": true,
+    "health_check_timeout_seconds": 20,
+    "keep_versions": 2
+  },
+  "rollout": {
+    "allow_downgrade": false,
+    "allowlist_tags": [],
+    "channels": [
+      "stable"
+    ],
+    "device_fingerprints": [],
+    "hardware_groups": []
+  },
+  "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "3h6+KPP7ugc3aknqPTKIomUMfyssu2f8QF3sIqY5pMOf2Z5KY5ELyfvFhdUl3w1uuiuo1JB5wKVS6SofK1FDDg=="
-  }
+    "value": "oMXQgV4G4APxLcf9Y3Huw2xnDsEji7i1YaMFTTTc/9sAib7Rly/Uyp0hKsz62BmetQjSXHKmv/pOUKrtwEv2AQ=="
+  },
+  "version": "0.2.5"
 }

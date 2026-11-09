@@ -1,21 +1,33 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.4b2-full.tar.gz",
-    "install_tree_sha256": "3df6b186fd7ce7367cdcf9b89e9e2e4c5a5233e46721276019f4f631a1cb9334",
-    "sha256": "563856415ff06c5570195d225cd6fa787434ee8542ca66985e652902484c9509",
-    "size": 53989659,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.4b2-full.tar.gz"
+    "filename": "shotdeck-0.2.5-full.tar.gz",
+    "install_tree_sha256": "c91bc1734509d480f5e6a6a3a853cc5c0100ede6229cfd342295b40773d68537",
+    "sha256": "cc035d53d4c3591dda3af168d752241acc3b826efc108aa8a76b3644a9bbbd82",
+    "size": 54188765,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.5-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Verify replacement-key updates with a higher-version beta on the migration pilot.",
-    "Keep GPIO runtime files outside retained recovery releases and protect updater package permissions.",
-    "Require reporting credentials and verify workshop SSH/sudo and fleet check-in during provisioning.",
-    "Open Scale from the Home chart, close device menus with the title-row close button, and improve control-centre and login layouts.",
-    "Keep complete outlines on danger keys, including Power off."
+    "Complete the qualified update and perpetual-licence maintenance automatically after one normal update, with automatic idle-time restarts and retry while preparation is unavailable.",
+    "Show live scale weight on idle Home and open the dedicated Scale screen from the chart.",
+    "Improve modal scrolling, control-centre and menu closing, login text layout and danger-key outlines.",
+    "Improve update recovery, support reporting and provisioning checks while preserving settings and existing licence terms.",
+    "Support La Marzocco line-pressure pre-infusion profiles and rinse handling, with machine no-water warnings.",
+    "Account for pre-infusion when analyzing shots and calculating average extraction flow."
   ],
   "notes_history": [
+    {
+      "channel": "beta",
+      "notes": [
+        "Verify replacement-key updates with a higher-version beta on the migration pilot.",
+        "Keep GPIO runtime files outside retained recovery releases and protect updater package permissions.",
+        "Require reporting credentials and verify workshop SSH/sudo and fleet check-in during provisioning.",
+        "Open Scale from the Home chart, close device menus with the title-row close button, and improve control-centre and login layouts.",
+        "Keep complete outlines on danger keys, including Power off."
+      ],
+      "version": "0.2.4b2"
+    },
     {
       "channel": "beta",
       "notes": [
@@ -263,12 +275,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "79e1a04b1d420492e48fe682892b7d927fb9a41d8e4366fdc61c89b85f547f13",
-    "source_commit": "2bdfc8810b8cb90000609c83008e287c7453831b",
-    "source_tree_sha256": "c32ab3d754281c56a28384c2fd2b6eaa3c39971b23ebd73797138ccc9da59b39",
-    "version": "0.2.4b2"
+    "sbom_sha256": "6022bc2769834f1df04571f26022bddd2bb290c811ef5a6598a4924c4e63559e",
+    "source_commit": "7f9283839aada60c0a4bf6f76799215e047eafcd",
+    "source_tree_sha256": "19bb44bf34b117822ff01611a90ddf017c3428f5cfd2adf835e052e2f84b55f4",
+    "version": "0.2.5"
   },
-  "released_at": "2026-11-09T09:12:05.725989+00:00",
+  "released_at": "2026-11-09T15:05:27.014028+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -280,16 +292,14 @@
     "channels": [
       "beta"
     ],
-    "device_fingerprints": [
-      "ba95d11fff0612cbeb4805d6c851ec90ac4f9c1fe61a239c1b64854aa5bb4a20"
-    ],
+    "device_fingerprints": [],
     "hardware_groups": []
   },
   "schema_version": "1.0",
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "N76ABExWcHEwiTq7+DV6UTzXobG3bclyTUnFMQZ6xj06SjbVoPIsPwbJyTluEN/grLsqMCfwrwjEAhraemZ/CQ=="
+    "value": "02dhb8MvCTDvIqPjKVl8C2B+J45uTlS8J7gk0ndYkPUtAae5JdZ7qs7ZTfPx+AHPyMv5A84ZWTddq66hwEDXCA=="
   },
-  "version": "0.2.4b2"
+  "version": "0.2.5"
 }
