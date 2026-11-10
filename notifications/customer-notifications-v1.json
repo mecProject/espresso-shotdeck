@@ -6,7 +6,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-09T17:04:34Z",
+  "issued_at": "2026-11-10T12:41:22Z",
   "notifications": [
     {
       "dismissible": true,
@@ -19,16 +19,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.2.5 is available",
       "title_de": "Shotdeck 0.2.5 ist verf\u00fcgbar"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-10T12:41:22Z",
+      "id": "shotdeck-update-0.2.7",
+      "message": "Fixes the updater.",
+      "message_de": "Behebt die Update-Funktion.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.7",
+      "title_de": "Shotdeck 0.2.7"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 26,
+  "sequence": 27,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "CponWjx9j6GvlTzjoAHLWAOfj/7vV8sJ09w8yxjUY2leCET3OfVIYXirhPdESPCi5E5m7nY4C/eHZTnf+dY1Dw=="
+    "value": "xGaDI70C9oiwkMfEkuN86nWn5hZ6WnpMddj0V9ZId9YpNtnO4Yv0rHgZI4pzPC+dG5EA4rwZMUvGEkJpncTdCw=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-10T17:04:34Z"
+  "valid_until": "2026-12-11T12:41:22Z"
 }
