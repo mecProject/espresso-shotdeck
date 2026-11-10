@@ -1,22 +1,42 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.5-full.tar.gz",
-    "install_tree_sha256": "c91bc1734509d480f5e6a6a3a853cc5c0100ede6229cfd342295b40773d68537",
-    "sha256": "cc035d53d4c3591dda3af168d752241acc3b826efc108aa8a76b3644a9bbbd82",
-    "size": 54188765,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.5-full.tar.gz"
+    "filename": "shotdeck-0.2.7-full.tar.gz",
+    "install_tree_sha256": "5a1257ce0ad594ce8860787a84224f2d6952f93986abfed7c5dc266d2c11e351",
+    "sha256": "595036dc2887ae9baa5a5085a77447d5841b453ebbdbb33bc3fb8350d2d64315",
+    "size": 54544135,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.7-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Complete the qualified update and perpetual-licence maintenance automatically after one normal update, with automatic idle-time restarts and retry while preparation is unavailable.",
-    "Show live scale weight on idle Home and open the dedicated Scale screen from the chart.",
-    "Improve modal scrolling, control-centre and menu closing, login text layout and danger-key outlines.",
-    "Improve update recovery, support reporting and provisioning checks while preserving settings and existing licence terms.",
-    "Support La Marzocco line-pressure pre-infusion profiles and rinse handling, with machine no-water warnings.",
-    "Account for pre-infusion when analyzing shots and calculating average extraction flow."
+    "Fixes the updater.",
+    "Shows the Shotdeck logo on iPhone and Android home-screen shortcuts."
   ],
   "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Complete the qualified update and perpetual-licence maintenance automatically after one normal update, with automatic idle-time restarts and retry while preparation is unavailable.",
+        "Show live scale weight on idle Home and open the dedicated Scale screen from the chart.",
+        "Improve modal scrolling, control-centre and menu closing, login text layout and danger-key outlines.",
+        "Improve update recovery, support reporting and provisioning checks while preserving settings and existing licence terms.",
+        "Support La Marzocco line-pressure pre-infusion profiles and rinse handling, with machine no-water warnings.",
+        "Account for pre-infusion when analyzing shots and calculating average extraction flow."
+      ],
+      "version": "0.2.5"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Complete the qualified update and perpetual-licence maintenance automatically after one normal update, with automatic idle-time restarts and retry while preparation is unavailable.",
+        "Show live scale weight on idle Home and open the dedicated Scale screen from the chart.",
+        "Improve modal scrolling, control-centre and menu closing, login text layout and danger-key outlines.",
+        "Improve update recovery, support reporting and provisioning checks while preserving settings and existing licence terms.",
+        "Support La Marzocco line-pressure pre-infusion profiles and rinse handling, with machine no-water warnings.",
+        "Account for pre-infusion when analyzing shots and calculating average extraction flow."
+      ],
+      "version": "0.2.4"
+    },
     {
       "channel": "beta",
       "notes": [
@@ -275,12 +295,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "6022bc2769834f1df04571f26022bddd2bb290c811ef5a6598a4924c4e63559e",
-    "source_commit": "7f9283839aada60c0a4bf6f76799215e047eafcd",
-    "source_tree_sha256": "19bb44bf34b117822ff01611a90ddf017c3428f5cfd2adf835e052e2f84b55f4",
-    "version": "0.2.5"
+    "sbom_sha256": "a7d9ff7c3976bdac37ae453729a5f84d56d1e54f9b668473e965a9f9ec5c1851",
+    "source_commit": "b16c1c208867663215f4db5aa7cc7ce1fbde7079",
+    "source_tree_sha256": "d1c0710328ba459fe667026bb568be03d012ad0ab8822832a68184c82e777d59",
+    "version": "0.2.7"
   },
-  "released_at": "2026-11-09T15:05:27.014028+00:00",
+  "released_at": "2026-11-10T10:03:28.909705+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -299,7 +319,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "02dhb8MvCTDvIqPjKVl8C2B+J45uTlS8J7gk0ndYkPUtAae5JdZ7qs7ZTfPx+AHPyMv5A84ZWTddq66hwEDXCA=="
+    "value": "MLzPyhTdxVYmiPTJ5mAgor4m293e/8ezZ0QBrlif7c649WAon/U+DUdR6uoyslL3MR0Zz5EVFa3PIps0lHAJDw=="
   },
-  "version": "0.2.5"
+  "version": "0.2.7"
 }
