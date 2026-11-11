@@ -1,22 +1,33 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.8b1-full.tar.gz",
-    "install_tree_sha256": "ad17c34953f7fa0fad8f8bf5c09c983bc976e73eaebb1c0a313c1415e33d8fe4",
-    "sha256": "0fe2ceb20b0f592b4e84214f64a4d009f70613f0ad1b39ea6276d3f7d2a2ec6c",
-    "size": 54625724,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.8b1-full.tar.gz"
+    "filename": "shotdeck-0.2.8-full.tar.gz",
+    "install_tree_sha256": "e6100d0b8e9e42826025badf20c3fbc31648e2f06385d74016e86efe2829508b",
+    "sha256": "82b84c642ad94486ffe606f0ae42c6586c2afa1fd4252ada770e12040b55a6e5",
+    "size": 54629330,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.8-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Allow more time for update checks on migrated devices and improve La Marzocco Bluetooth recovery and cloud fallback.",
-    "Show a confirmed update-completion screen on the device after a successful installation.",
-    "Save web profile edits to the correct profile after selection changes.",
-    "Skip empty weighed shots in history while retaining scale-free timed shots and failed-scale records.",
-    "Refresh the Wi-Fi setup and pairing PIN screens to match the instrument theme.",
-    "Retry a transient La Marzocco status check before starting Cleaning."
+    "Fix slow update checks and automatic installation on migrated devices while preserving existing licence protection.",
+    "Keep update helpers current after migration and show confirmed installation completion.",
+    "Improve La Marzocco Bluetooth recovery, cloud fallback and the status retry before Cleaning.",
+    "Save web profile edits to the selected profile and omit empty weighed shots while retaining timed shots.",
+    "Refresh Wi-Fi setup and pairing screens."
   ],
   "notes_history": [
+    {
+      "channel": "beta",
+      "notes": [
+        "Allow more time for update checks on migrated devices and improve La Marzocco Bluetooth recovery and cloud fallback.",
+        "Show a confirmed update-completion screen on the device after a successful installation.",
+        "Save web profile edits to the correct profile after selection changes.",
+        "Skip empty weighed shots in history while retaining scale-free timed shots and failed-scale records.",
+        "Refresh the Wi-Fi setup and pairing PIN screens to match the instrument theme.",
+        "Retry a transient La Marzocco status check before starting Cleaning."
+      ],
+      "version": "0.2.8b1"
+    },
     {
       "channel": "stable",
       "notes": [
@@ -314,12 +325,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "5927d32bbef7c7d955d546ac0f2d1b04210338b24447066dfa610b2396141aa8",
-    "source_commit": "13bd91530e50f7a7dfe0adab07a21380fc8d91f7",
-    "source_tree_sha256": "a43f562b230766b56076e45a627eb99424f9f862bbfd9d775f26a0e5893f3c57",
-    "version": "0.2.8b1"
+    "sbom_sha256": "2d1b145ef0e5d5ee7f14ef503357438b1276dac4088d42407279780dd5671e48",
+    "source_commit": "ccd9df5756cd15a1defd8eb3fbde0dec89af46c8",
+    "source_tree_sha256": "563ce360da4053281d480927d494dc8a3a7f9465c53e3d302015822fc558c3c2",
+    "version": "0.2.8"
   },
-  "released_at": "2026-11-11T18:01:33.087462+00:00",
+  "released_at": "2026-11-11T20:32:13.052057+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -331,7 +342,7 @@
     "channels": [
       "beta"
     ],
-    "current_version": "==0.2.7",
+    "current_version": ">=0.2.7,>=0.2.7.dev0,<=0.2.8",
     "device_fingerprints": [],
     "hardware_groups": []
   },
@@ -339,7 +350,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "kmkI068tlzvb04mKq6+/sdTiy6rt5cUinqs3L+2gMHW/jencIo+lyz0K7Hf+U8+Ia74BxKE8/XMU/KZDPsOxCg=="
+    "value": "IQnNLY6uLOXxVqIPUEHyXckDjKxjYaTv/l5bUjr+HwU7dzVvEs7qZVMJ3AKhD7REHZdwkfT1/tCi6mzVhm/7Bw=="
   },
-  "version": "0.2.8b1"
+  "version": "0.2.8"
 }
