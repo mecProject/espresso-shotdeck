@@ -1,18 +1,37 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.7-full.tar.gz",
-    "install_tree_sha256": "5a1257ce0ad594ce8860787a84224f2d6952f93986abfed7c5dc266d2c11e351",
-    "sha256": "595036dc2887ae9baa5a5085a77447d5841b453ebbdbb33bc3fb8350d2d64315",
-    "size": 54544135,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.7-full.tar.gz"
+    "filename": "shotdeck-0.2.8b1-full.tar.gz",
+    "install_tree_sha256": "ad17c34953f7fa0fad8f8bf5c09c983bc976e73eaebb1c0a313c1415e33d8fe4",
+    "sha256": "0fe2ceb20b0f592b4e84214f64a4d009f70613f0ad1b39ea6276d3f7d2a2ec6c",
+    "size": 54625724,
+    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.8b1-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Fixes the updater.",
-    "Shows the Shotdeck logo on iPhone and Android home-screen shortcuts."
+    "Allow more time for update checks on migrated devices and improve La Marzocco Bluetooth recovery and cloud fallback.",
+    "Show a confirmed update-completion screen on the device after a successful installation.",
+    "Save web profile edits to the correct profile after selection changes.",
+    "Skip empty weighed shots in history while retaining scale-free timed shots and failed-scale records.",
+    "Refresh the Wi-Fi setup and pairing PIN screens to match the instrument theme.",
+    "Retry a transient La Marzocco status check before starting Cleaning."
   ],
   "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Fixes the updater.",
+        "Shows the Shotdeck logo on iPhone and Android home-screen shortcuts."
+      ],
+      "version": "0.2.7"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Fixes the updater."
+      ],
+      "version": "0.2.6"
+    },
     {
       "channel": "stable",
       "notes": [
@@ -295,12 +314,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "a7d9ff7c3976bdac37ae453729a5f84d56d1e54f9b668473e965a9f9ec5c1851",
-    "source_commit": "b16c1c208867663215f4db5aa7cc7ce1fbde7079",
-    "source_tree_sha256": "d1c0710328ba459fe667026bb568be03d012ad0ab8822832a68184c82e777d59",
-    "version": "0.2.7"
+    "sbom_sha256": "5927d32bbef7c7d955d546ac0f2d1b04210338b24447066dfa610b2396141aa8",
+    "source_commit": "13bd91530e50f7a7dfe0adab07a21380fc8d91f7",
+    "source_tree_sha256": "a43f562b230766b56076e45a627eb99424f9f862bbfd9d775f26a0e5893f3c57",
+    "version": "0.2.8b1"
   },
-  "released_at": "2026-11-10T10:03:28.909705+00:00",
+  "released_at": "2026-11-11T18:01:33.087462+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 20,
@@ -312,6 +331,7 @@
     "channels": [
       "beta"
     ],
+    "current_version": "==0.2.7",
     "device_fingerprints": [],
     "hardware_groups": []
   },
@@ -319,7 +339,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "MLzPyhTdxVYmiPTJ5mAgor4m293e/8ezZ0QBrlif7c649WAon/U+DUdR6uoyslL3MR0Zz5EVFa3PIps0lHAJDw=="
+    "value": "kmkI068tlzvb04mKq6+/sdTiy6rt5cUinqs3L+2gMHW/jencIo+lyz0K7Hf+U8+Ia74BxKE8/XMU/KZDPsOxCg=="
   },
-  "version": "0.2.7"
+  "version": "0.2.8b1"
 }
