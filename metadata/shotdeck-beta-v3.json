@@ -240,7 +240,7 @@
     {
       "channel": "stable",
       "notes": [
-        "Kelvin canary: quick-paddle rinse, faster profile apply, and web rinse settings",
+        "Quick-paddle rinse, faster profile apply, and web rinse settings",
         "Explicit one-device stable canary: do not treat this pointer as a full-fleet promotion."
       ],
       "version": "0.1.69"
@@ -350,7 +350,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "IQnNLY6uLOXxVqIPUEHyXckDjKxjYaTv/l5bUjr+HwU7dzVvEs7qZVMJ3AKhD7REHZdwkfT1/tCi6mzVhm/7Bw=="
+    "value": "+ogjXxxJxDgP5EtK0lT26JgWxecIwwR6iMd06+Iph3C0fWTrVvu3dXcfd1HFDHMo40yPm97qN2G9zN7OFkLxDQ=="
   },
   "version": "0.2.8"
 }
