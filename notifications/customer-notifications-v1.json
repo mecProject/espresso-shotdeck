@@ -6,8 +6,20 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-20T10:38:34Z",
+  "issued_at": "2026-11-20T14:52:05Z",
   "notifications": [
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-20T14:52:05Z",
+      "id": "shotdeck-update-0.2.11",
+      "message": "Since 0.2.8, we\u2019ve improved Wi-Fi setup and reconnection, including saved networks and band selection. The touchscreen is easier to read, and Home shows icons for weighed and timed brews. Unset boiler temperatures stay blank when editing a profile. Updates show clearer progress and a confirmation when they finish. In the paired web interface, open Settings \u2192 Software updates, select Check now, then Update now.",
+      "message_de": "Seit 0.2.8 sind WLAN-Einrichtung, Bandauswahl und die Verbindung mit gespeicherten Netzen zuverl\u00e4ssiger. Das Touchdisplay ist besser lesbar. Symbole auf dem Startbildschirm zeigen gewichts- und zeitgesteuerte Bez\u00fcge. Nicht eingestellte Kesseltemperaturen bleiben bei der Profilbearbeitung leer. Updates zeigen den Fortschritt deutlicher und best\u00e4tigen den Abschluss. In der gekoppelten Weboberfl\u00e4che unter Einstellungen \u2192 Software-Updates erst Jetzt pr\u00fcfen, dann Jetzt aktualisieren w\u00e4hlen.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.11",
+      "title_de": "Shotdeck 0.2.11"
+    },
     {
       "dismissible": true,
       "expires_at": "2026-12-10T12:41:22Z",
@@ -23,12 +35,12 @@
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 30,
+  "sequence": 31,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "d4uiQnBCWBwtvCIANJyu4hShMWgYsFeaYStu2w766Rjy1nOlBHUh+2cJS4VzUMD7mPDK+RdhvZa9X0/+NKxlCQ=="
+    "value": "lfb/zJt1ArDG6mQyjrL4Yfm5TPsoAcf8xLXOoIDS0suLqtMgPxpFZwJMQ7wAj9OwKlSmvFp0/JAnXG35oNs3AQ=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-21T10:38:34Z"
+  "valid_until": "2026-12-21T14:52:05Z"
 }
