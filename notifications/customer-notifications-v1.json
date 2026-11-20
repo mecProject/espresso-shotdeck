@@ -6,8 +6,20 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-10T12:55:00Z",
+  "issued_at": "2026-11-20T10:06:46Z",
   "notifications": [
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-20T10:06:46Z",
+      "id": "shotdeck-update-0.2.10-beta",
+      "message": "This beta improves Wi-Fi reconnection and display wake-up, adds scale and clock icons on Home, and fixes how unset boiler temperatures appear in profiles. On Shotdeck 0.2.8 with Beta updates enabled, open Settings \u2192 Software updates in the paired web interface. Select Check now, then Update now when 0.2.10 appears.",
+      "message_de": "Diese Beta verbessert die WLAN-Wiederverbindung und das Aufwecken des Displays, erg\u00e4nzt Waagen- und Uhrsymbole auf der Startseite und korrigiert die Anzeige nicht gesetzter Boilertemperaturen in Profilen. \u00d6ffne bei Shotdeck 0.2.8 mit aktivierten Beta-Updates in der gekoppelten Weboberfl\u00e4che Einstellungen \u2192 Software-Updates. W\u00e4hle Jetzt pr\u00fcfen und dann Jetzt aktualisieren, sobald 0.2.10 angezeigt wird.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.10 beta",
+      "title_de": "Shotdeck 0.2.10 Beta"
+    },
     {
       "dismissible": true,
       "expires_at": "2026-12-10T12:41:22Z",
@@ -23,12 +35,12 @@
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 28,
+  "sequence": 29,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "tZ1Y7xq6Xo987SzE4DdFfNoIkDYJAfWvec7KoQHVxrp90/zMzCcLFM/DB7+nwKb/DZHrbaWqSpKhpwUGmilWAw=="
+    "value": "Rt/1rPqmeTgGJUJzMmwQy2ymG323l6dMaSz7k56rVvryeD0XLuBRKFeXyzbFIV03NWx42B/NS1Q+Mo/22BWZBw=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-11T12:55:00Z"
+  "valid_until": "2026-12-21T10:06:46Z"
 }
