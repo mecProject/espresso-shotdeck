@@ -1,21 +1,43 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.8-full.tar.gz",
-    "install_tree_sha256": "e6100d0b8e9e42826025badf20c3fbc31648e2f06385d74016e86efe2829508b",
-    "sha256": "82b84c642ad94486ffe606f0ae42c6586c2afa1fd4252ada770e12040b55a6e5",
-    "size": 54629330,
-    "url": "https://mecproject.github.io/espresso-shotdeck/artifacts/shotdeck-0.2.8-full.tar.gz"
+    "filename": "shotdeck-0.2.11-full.tar.gz",
+    "install_tree_sha256": "59ef887d5a4ce357cd5d8cda5e2caa4525652a1eee2e14b18ed7ec486617618a",
+    "sha256": "adac300750c2db3bd37b62ab2549dd5f4e3c6f25eb94fcc29fef943c27273323",
+    "size": 62553494,
+    "url": "https://support.espresso-shotdeck.com/updates/artifacts/shotdeck-0.2.11-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Fix slow update checks and automatic installation on migrated devices while preserving existing licence protection.",
-    "Keep update helpers current after migration and show confirmed installation completion.",
-    "Improve La Marzocco Bluetooth recovery, cloud fallback and the status retry before Cleaning.",
-    "Save web profile edits to the selected profile and omit empty weighed shots while retaining timed shots.",
-    "Refresh Wi-Fi setup and pairing screens."
+    "Improve Wi-Fi setup and reconnection on Raspberry Pi, including saved networks and band selection.",
+    "Improve the readability of the touch display when waking, pairing a browser, or reporting a fault.",
+    "Show scale and clock icons on Home to distinguish weighed and timed brews.",
+    "Keep unset boiler temperatures blank when editing a profile.",
+    "Show clearer update progress and confirm when an installation succeeds."
   ],
   "notes_history": [
+    {
+      "channel": "beta",
+      "notes": [
+        "Improve Wi-Fi setup and reconnection on Raspberry Pi, including saved networks and band selection.",
+        "Make the touch display easier to read when waking it, pairing a browser, or showing a fault.",
+        "Show scale and clock icons on Home to distinguish weighed and timed brews.",
+        "Keep unset boiler temperatures blank when editing a profile.",
+        "Clarify update progress and display a confirmation after a successful installation."
+      ],
+      "version": "0.2.10"
+    },
+    {
+      "channel": "stable",
+      "notes": [
+        "Fix slow update checks and automatic installation on migrated devices while preserving existing licence protection.",
+        "Keep update helpers current after migration and show confirmed installation completion.",
+        "Improve La Marzocco Bluetooth recovery, cloud fallback and the status retry before Cleaning.",
+        "Save web profile edits to the selected profile and omit empty weighed shots while retaining timed shots.",
+        "Refresh Wi-Fi setup and pairing screens."
+      ],
+      "version": "0.2.8"
+    },
     {
       "channel": "beta",
       "notes": [
@@ -240,7 +262,7 @@
     {
       "channel": "stable",
       "notes": [
-        "Quick-paddle rinse, faster profile apply, and web rinse settings",
+        "Kelvin canary: quick-paddle rinse, faster profile apply, and web rinse settings",
         "Explicit one-device stable canary: do not treat this pointer as a full-fleet promotion."
       ],
       "version": "0.1.69"
@@ -325,15 +347,15 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "2d1b145ef0e5d5ee7f14ef503357438b1276dac4088d42407279780dd5671e48",
-    "source_commit": "ccd9df5756cd15a1defd8eb3fbde0dec89af46c8",
-    "source_tree_sha256": "563ce360da4053281d480927d494dc8a3a7f9465c53e3d302015822fc558c3c2",
-    "version": "0.2.8"
+    "sbom_sha256": "e6521a128368d98740380fb40ebf00817c24ccc1fffc402810001f62a347ff3f",
+    "source_commit": "ebb7ff757cce12bcc534b713a48a84c8ef4688cd",
+    "source_tree_sha256": "7c66d2d578cac12d305a39ae83a416cd13a363e96572b70e0656a913dd87fdd0",
+    "version": "0.2.11"
   },
-  "released_at": "2026-11-11T20:32:13.052057+00:00",
+  "released_at": "2026-11-20T14:32:13.232735+00:00",
   "rollback": {
     "allow_manual_rollback": true,
-    "health_check_timeout_seconds": 20,
+    "health_check_timeout_seconds": 120,
     "keep_versions": 2
   },
   "rollout": {
@@ -342,7 +364,6 @@
     "channels": [
       "beta"
     ],
-    "current_version": ">=0.2.7,>=0.2.7.dev0,<=0.2.8",
     "device_fingerprints": [],
     "hardware_groups": []
   },
@@ -350,7 +371,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "+ogjXxxJxDgP5EtK0lT26JgWxecIwwR6iMd06+Iph3C0fWTrVvu3dXcfd1HFDHMo40yPm97qN2G9zN7OFkLxDQ=="
+    "value": "ujHs3dFJdc5uFgAYl3iRmBCBviEFn3GeijTxMD0H5NtudBeerhRIHVCBg2Yd8jPaHLbL7+cupLnv0zDQejLLBQ=="
   },
-  "version": "0.2.8"
+  "version": "0.2.11"
 }
