@@ -1,21 +1,34 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.11-full.tar.gz",
-    "install_tree_sha256": "59ef887d5a4ce357cd5d8cda5e2caa4525652a1eee2e14b18ed7ec486617618a",
-    "sha256": "adac300750c2db3bd37b62ab2549dd5f4e3c6f25eb94fcc29fef943c27273323",
-    "size": 62553494,
-    "url": "https://support.espresso-shotdeck.com/updates/artifacts/shotdeck-0.2.11-full.tar.gz"
+    "filename": "shotdeck-0.2.12-full.tar.gz",
+    "install_tree_sha256": "3277264c315560ad84e8b9e155ba0941c9d51412ca4fdbd4a992892ac35a9430",
+    "sha256": "e80ba74d74b70e84ea9985facf16d11560885af1814e2770c8bd978cfb219eed",
+    "size": 62937853,
+    "url": "https://support.espresso-shotdeck.com/updates/artifacts/shotdeck-0.2.12-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Improve Wi-Fi setup and reconnection on Raspberry Pi, including saved networks and band selection.",
-    "Improve the readability of the touch display when waking, pairing a browser, or reporting a fault.",
-    "Show scale and clock icons on Home to distinguish weighed and timed brews.",
-    "Keep unset boiler temperatures blank when editing a profile.",
-    "Show clearer update progress and confirm when an installation succeeds."
+    "Choose a La Marzocco machine from your account in the web Machine screen or on the touchscreen. Shotdeck remembers the choice for this device.",
+    "Create and edit brew profiles in the full-page web editor. Adjust target weight, stop time or the shot-time window directly in the live recipe preview.",
+    "Show measured and target coffee and steam temperatures together for connected La Marzocco machines.",
+    "When machine Bluetooth is in use, give the scale priority from tare through the final weight reading, then resume machine Bluetooth readings.",
+    "Configure the status light and side buttons on REV15, and automatically retry brief board license read failures.",
+    "Use less disk and processor time when installing updates on REV15.",
+    "Move signed news to the Shotdeck support site on fresh installs and upgrades from the old official news URL. Preserve custom URLs and notice dismissals."
   ],
   "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Improve Wi-Fi setup and reconnection on Raspberry Pi, including saved networks and band selection.",
+        "Improve the readability of the touch display when waking, pairing a browser, or reporting a fault.",
+        "Show scale and clock icons on Home to distinguish weighed and timed brews.",
+        "Keep unset boiler temperatures blank when editing a profile.",
+        "Show clearer update progress and confirm when an installation succeeds."
+      ],
+      "version": "0.2.11"
+    },
     {
       "channel": "beta",
       "notes": [
@@ -347,12 +360,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "e6521a128368d98740380fb40ebf00817c24ccc1fffc402810001f62a347ff3f",
-    "source_commit": "ebb7ff757cce12bcc534b713a48a84c8ef4688cd",
-    "source_tree_sha256": "7c66d2d578cac12d305a39ae83a416cd13a363e96572b70e0656a913dd87fdd0",
-    "version": "0.2.11"
+    "sbom_sha256": "5d88fdaf4b2a709a8a74316bd50a1b2811dbfd6767743261222f6a27c9d851a8",
+    "source_commit": "02126879204b8790c00ed4aa5869c1c000717426",
+    "source_tree_sha256": "8150cbba1ee5194cd424df52bbab0eb4ebb1551b2d4d1b026a27454b45a763b8",
+    "version": "0.2.12"
   },
-  "released_at": "2026-11-20T14:32:13.232735+00:00",
+  "released_at": "2026-11-24T21:58:37.355078+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 120,
@@ -371,7 +384,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "ujHs3dFJdc5uFgAYl3iRmBCBviEFn3GeijTxMD0H5NtudBeerhRIHVCBg2Yd8jPaHLbL7+cupLnv0zDQejLLBQ=="
+    "value": "8VSYXnatrczaniplCqZ77FG/3tSBdbj6xnBSFuNTrZdcGSUoxn+RpMHZ7htSwVjqELXqWEMb+RHy1jJ1r4uXAw=="
   },
-  "version": "0.2.11"
+  "version": "0.2.12"
 }
