@@ -6,7 +6,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-20T14:52:10Z",
+  "issued_at": "2026-11-24T22:05:42Z",
   "notifications": [
     {
       "dismissible": true,
@@ -19,16 +19,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.2.11",
       "title_de": "Shotdeck 0.2.11"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-24T22:05:41Z",
+      "id": "shotdeck-update-0.2.12",
+      "message": "Choose a La Marzocco machine from your account under Machine \u2192 Machine details & account \u2192 Change machine. Shotdeck remembers your choice. Edit brew targets in the web profile preview. For the Bluetooth pilot on a Linea Micra or Mini R, choose Pair machine Bluetooth in the same menu to see measured and target boiler temperatures. The scale takes priority from tare to final weight. In the paired web interface, open Settings \u2192 Software updates, then select Check now and Update now.",
+      "message_de": "W\u00e4hle unter Maschine \u2192 Maschinendetails & Konto \u2192 Maschine wechseln eine La-Marzocco-Maschine aus deinem Konto. Shotdeck merkt sich deine Auswahl. \u00c4ndere Bezugsziele in der Profilvorschau. Im Bluetooth-Pilotbetrieb mit Linea Micra oder Mini R w\u00e4hle Maschine per Bluetooth koppeln. Shotdeck zeigt Ist- und Solltemperaturen der Kessel. Die Waage hat vom Tarieren bis zum Endgewicht Vorrang. In der gekoppelten Weboberfl\u00e4che unter Einstellungen \u2192 Software-Updates erst Jetzt pr\u00fcfen, dann Jetzt aktualisieren.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.12",
+      "title_de": "Shotdeck 0.2.12"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 32,
+  "sequence": 33,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "r2Qa+xiFLSP7xZNCwaxoIZlZkOA/jV1L0FN5jkp5H8pkHOdxMIxffYDZ+SgOHhd9xj81LywTGbFG7E7nMnYWBg=="
+    "value": "BFguboXVX7HVTEaK85kf0d0/sIShVMCL/HyBe3EhalyeF5379YrWncqztPXd1Z70ZfOFwlaEHMBSK1qXrZPgBQ=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-21T14:52:10Z"
+  "valid_until": "2026-12-25T22:05:42Z"
 }
