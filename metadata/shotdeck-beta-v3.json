@@ -1,23 +1,35 @@
 {
   "channel": "beta",
   "full_artifact": {
-    "filename": "shotdeck-0.2.12-full.tar.gz",
-    "install_tree_sha256": "3277264c315560ad84e8b9e155ba0941c9d51412ca4fdbd4a992892ac35a9430",
-    "sha256": "e80ba74d74b70e84ea9985facf16d11560885af1814e2770c8bd978cfb219eed",
-    "size": 62937853,
-    "url": "https://support.espresso-shotdeck.com/updates/artifacts/shotdeck-0.2.12-full.tar.gz"
+    "filename": "shotdeck-0.2.13-full.tar.gz",
+    "install_tree_sha256": "67ce3c90748991d4496a41fb0cdcc5277dab3e4683521b66ecf54c341bcb3caf",
+    "sha256": "4a051b2333df220753efae81aab6911152cd9df22f177e8cc54ece739b63bd21",
+    "size": 63866357,
+    "url": "https://support.espresso-shotdeck.com/updates/artifacts/shotdeck-0.2.13-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Choose a La Marzocco machine from your account in the web Machine screen or on the touchscreen. Shotdeck remembers the choice for this device.",
-    "Create and edit brew profiles in the full-page web editor. Adjust target weight, stop time or the shot-time window directly in the live recipe preview.",
-    "Show measured and target coffee and steam temperatures together for connected La Marzocco machines.",
-    "When machine Bluetooth is in use, give the scale priority from tare through the final weight reading, then resume machine Bluetooth readings.",
-    "Configure the status light and side buttons on REV15, and automatically retry brief board license read failures.",
-    "Use less disk and processor time when installing updates on REV15.",
-    "Move signed news to the Shotdeck support site on fresh installs and upgrades from the old official news URL. Preserve custom URLs and notice dismissals."
+    "Choose Celsius or Fahrenheit on the touch display or in the web interface. Shotdeck shares the setting across both.",
+    "Set a display inactivity timer that can turn off the display even when the machine is on, once the scale is disconnected and the paddle is off.",
+    "Use local Bluetooth by default after pairing a La Marzocco Linea Micra or Linea Mini R.",
+    "Find scale selection and related settings together in the refreshed touchscreen and web settings.",
+    "Reset Shotdeck from the touchscreen or paired web interface. Download a backup and save its recovery code before erasing local data and saved Wi-Fi.",
+    "See a slow blue status-light pulse when REV15 is waiting for the scale. The warning also works with digital-only GPIO."
   ],
   "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Choose a La Marzocco machine from your account in the web Machine screen or on the touchscreen. Shotdeck remembers the choice for this device.",
+        "Create and edit brew profiles in the full-page web editor. Adjust target weight, stop time or the shot-time window directly in the live recipe preview.",
+        "Show measured and target coffee and steam temperatures together for connected La Marzocco machines.",
+        "When machine Bluetooth is in use, give the scale priority from tare through the final weight reading, then resume machine Bluetooth readings.",
+        "Configure the status light and side buttons on REV15, and automatically retry brief board license read failures.",
+        "Use less disk and processor time when installing updates on REV15.",
+        "Move signed news to the Shotdeck support site on fresh installs and upgrades from the old official news URL. Preserve custom URLs and notice dismissals."
+      ],
+      "version": "0.2.12"
+    },
     {
       "channel": "stable",
       "notes": [
@@ -360,12 +372,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "5d88fdaf4b2a709a8a74316bd50a1b2811dbfd6767743261222f6a27c9d851a8",
-    "source_commit": "02126879204b8790c00ed4aa5869c1c000717426",
-    "source_tree_sha256": "8150cbba1ee5194cd424df52bbab0eb4ebb1551b2d4d1b026a27454b45a763b8",
-    "version": "0.2.12"
+    "sbom_sha256": "b3e85d9a8560604a66152aaea24f7fadad040f1a3718b58fab90a616f81c58c0",
+    "source_commit": "40e0ae524502d844fc7b4d2e7b55232f984c5f83",
+    "source_tree_sha256": "c8d22cb05cc75f7b5a71aee253dca6c849d9f238e88de3341562426283b6f641",
+    "version": "0.2.13"
   },
-  "released_at": "2026-11-24T21:58:37.355078+00:00",
+  "released_at": "2026-11-26T06:42:42.536347+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 120,
@@ -384,7 +396,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "8VSYXnatrczaniplCqZ77FG/3tSBdbj6xnBSFuNTrZdcGSUoxn+RpMHZ7htSwVjqELXqWEMb+RHy1jJ1r4uXAw=="
+    "value": "Q+ANh0O9GFGwYMOZOoXvE2ieo44kHHsOWZlV98uuR7qfUaQORWz9cVHwoNsAZjs6nFSBcVQFBw6IKmXHyK1EDA=="
   },
-  "version": "0.2.12"
+  "version": "0.2.13"
 }
