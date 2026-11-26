@@ -6,7 +6,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-24T22:10:33Z",
+  "issued_at": "2026-11-26T07:00:20Z",
   "notifications": [
     {
       "dismissible": true,
@@ -19,16 +19,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.2.12",
       "title_de": "Shotdeck 0.2.12"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-26T07:00:20Z",
+      "id": "shotdeck-update-0.2.13",
+      "message": "Shotdeck adds a Celsius or Fahrenheit setting and a display inactivity timer that works even with the machine on. Local Bluetooth is on by default after pairing a La Marzocco Linea Micra or Linea Mini R. Scale settings have been reorganized, and Factory reset is available in Settings. In the paired web interface, open Settings \u2192 Software updates, then choose Check now and Update now.",
+      "message_de": "Neu sind die Wahl zwischen Celsius und Fahrenheit und die Displayruhe bei Inaktivit\u00e4t, auch bei eingeschalteter Maschine. Nach dem Koppeln einer Linea Micra oder Linea Mini R von La Marzocco ist lokales Bluetooth standardm\u00e4\u00dfig aktiv. Die Waageneinstellungen sind neu angeordnet. In den Einstellungen kannst du Shotdeck auf Werkseinstellungen zur\u00fccksetzen. \u00d6ffne in der gekoppelten Weboberfl\u00e4che Einstellungen \u2192 Software-Updates und w\u00e4hle Jetzt pr\u00fcfen, dann Jetzt aktualisieren.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.13",
+      "title_de": "Shotdeck 0.2.13"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 34,
+  "sequence": 35,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "77jJMOcOLjvUHyon6kZ8CeP2iDTLLvxgL2Rwd3UXnF8IEtwDesdSr6Axuf0oGS5QQcwsAK8grqvMVupSbuYWAA=="
+    "value": "TSQRvsadDZoqxeTox71cHTRK3CCMO54nvGE8q9dkYO9G135nwb5s/k4hex7IjGihAp86Rr70o/q5omZ/zSXfDQ=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-25T22:10:33Z"
+  "valid_until": "2026-12-27T07:00:20Z"
 }
