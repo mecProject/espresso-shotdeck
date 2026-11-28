@@ -1,22 +1,36 @@
 {
   "channel": "stable",
   "full_artifact": {
-    "filename": "shotdeck-0.2.13-full.tar.gz",
-    "install_tree_sha256": "67ce3c90748991d4496a41fb0cdcc5277dab3e4683521b66ecf54c341bcb3caf",
-    "sha256": "4a051b2333df220753efae81aab6911152cd9df22f177e8cc54ece739b63bd21",
-    "size": 63866357,
-    "url": "https://support.espresso-shotdeck.com/updates/artifacts/shotdeck-0.2.13-full.tar.gz"
+    "filename": "shotdeck-0.2.14-full.tar.gz",
+    "install_tree_sha256": "2e29bbb3748aca9b9677ad2ebdabfcefb14757e1875781f7bd660ecd18cb1ec7",
+    "sha256": "5a8cedbac6b216bfe0d18df76dc9073fd02c7099e236715e661fe927a4718028",
+    "size": 64404508,
+    "url": "https://support.espresso-shotdeck.com/updates/artifacts/shotdeck-0.2.14-full.tar.gz"
   },
   "min_updater_version": "0.2.4",
   "notes": [
-    "Choose Celsius or Fahrenheit on the touch display or in the web interface. Shotdeck shares the setting across both.",
-    "Set a display inactivity timer that can turn off the display even when the machine is on, once the scale is disconnected and the paddle is off.",
-    "Use local Bluetooth by default after pairing a La Marzocco Linea Micra or Linea Mini R.",
-    "Find scale selection and related settings together in the refreshed touchscreen and web settings.",
-    "Reset Shotdeck from the touchscreen or paired web interface. Download a backup and save its recovery code before erasing local data and saved Wi-Fi.",
-    "See a slow blue status-light pulse when REV15 is waiting for the scale. The warning also works with digital-only GPIO."
+    "Choose wired or wireless brew by weight during setup or under Machine \u2192 BBW paddle connection in the paired web interface. Wireless needs a verified machine Bluetooth connection, the original paddle circuit independent of Shotdeck, and acceptance of the risk notice. Return the paddle to Stop and check the flow after every wireless shot.",
+    "Connect your La Marzocco machine over Bluetooth with a step-by-step guide in the web interface. The guide ends with a connection check.",
+    "Find machine settings faster. The Machine page opens on an overview, and each group of settings has its own section.",
+    "Shot history shows whether a brew-by-weight shot used the wired or the wireless paddle connection.",
+    "Grind-by-Sync reports only shots that Shotdeck ends at the target to the E64. Save the E64 owner password once to read the grinder receipt in shot details. Enabling Grind-by-Sync adds the Mahlk\u00f6nig E64 WS to your grinders.",
+    "Fixed an Acaia decoding error that could show a sudden large weight jump.",
+    "An empty Standby sleep or Inactivity sleep entry now switches the timer off.",
+    "The Shotdeck symbol now shows a brewing curve."
   ],
   "notes_history": [
+    {
+      "channel": "stable",
+      "notes": [
+        "Choose Celsius or Fahrenheit on the touch display or in the web interface. Shotdeck shares the setting across both.",
+        "Set a display inactivity timer that can turn off the display even when the machine is on, once the scale is disconnected and the paddle is off.",
+        "Use local Bluetooth by default after pairing a La Marzocco Linea Micra or Linea Mini R.",
+        "Find scale selection and related settings together in the refreshed touchscreen and web settings.",
+        "Reset Shotdeck from the touchscreen or paired web interface. Download a backup and save its recovery code before erasing local data and saved Wi-Fi.",
+        "See a slow blue status-light pulse when REV15 is waiting for the scale. The warning also works with digital-only GPIO."
+      ],
+      "version": "0.2.13"
+    },
     {
       "channel": "stable",
       "notes": [
@@ -309,12 +323,12 @@
     "builder_hostname": "shotdeck-dev",
     "nuitka_version": "4.0.8",
     "python_version": "Python 3.13.5",
-    "sbom_sha256": "b3e85d9a8560604a66152aaea24f7fadad040f1a3718b58fab90a616f81c58c0",
-    "source_commit": "40e0ae524502d844fc7b4d2e7b55232f984c5f83",
-    "source_tree_sha256": "c8d22cb05cc75f7b5a71aee253dca6c849d9f238e88de3341562426283b6f641",
-    "version": "0.2.13"
+    "sbom_sha256": "acb0355bd596193945967495700542c0120806879bb4971f1899cd3061d83242",
+    "source_commit": "007d2fc0b1f1e9c57cd56a8841aeaf31ebd6d00f",
+    "source_tree_sha256": "269b92d9e4dab1ad39dd79612a3cfeeb0886b7ceee8016df636dee512d56a960",
+    "version": "0.2.14"
   },
-  "released_at": "2026-11-26T06:42:42.536347+00:00",
+  "released_at": "2026-11-28T16:35:22.012845+00:00",
   "rollback": {
     "allow_manual_rollback": true,
     "health_check_timeout_seconds": 120,
@@ -333,7 +347,7 @@
   "signature": {
     "algorithm": "ed25519",
     "key_id": "1bdca8325d814999",
-    "value": "x3FfPYkIqSv5RZPnHiyh69lx1i77WxpmNyoNNOPWRIeX5zvS3fb/oHeU3QM7w+6YlBb6vXIiu2TAuIKLQBgZAw=="
+    "value": "9e9lJPJyosEo6XJ4Z2EbLbrABcuo25C4jnbHqIrUd0scHadNKmudzTjNTpuGPgt2EAbvWR/dcByMbND/NcX1Cw=="
   },
-  "version": "0.2.13"
+  "version": "0.2.14"
 }
