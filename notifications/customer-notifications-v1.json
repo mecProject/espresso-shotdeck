@@ -6,7 +6,7 @@
   },
   "document_type": "com.espresso-shotdeck.customer-notification-feed",
   "feed_id": "production",
-  "issued_at": "2026-11-26T07:04:11Z",
+  "issued_at": "2026-11-28T17:31:09Z",
   "notifications": [
     {
       "dismissible": true,
@@ -19,16 +19,28 @@
       "starts_at": "",
       "title": "Shotdeck 0.2.13",
       "title_de": "Shotdeck 0.2.13"
+    },
+    {
+      "dismissible": true,
+      "expires_at": "2026-12-28T17:31:09Z",
+      "id": "shotdeck-update-0.2.14",
+      "message": "Shotdeck adds optional wireless brew by weight for machines with a verified Bluetooth connection, a step-by-step Bluetooth setup guide and a reorganised Machine page. Grind-by-Sync reporting to the E64 is more reliable, and an Acaia weight error is fixed. In the paired web interface, open Settings \u2192 Software updates, then choose Check now and Update now.",
+      "message_de": "Neu sind optionales kabelloses Brew by Weight f\u00fcr Maschinen mit gepr\u00fcfter Bluetooth-Verbindung, eine Schritt-f\u00fcr-Schritt-Anleitung f\u00fcr die Bluetooth-Einrichtung und eine neu geordnete Maschinenseite. Grind-by-Sync meldet zuverl\u00e4ssiger an die E64, und ein Gewichtsfehler bei Acaia-Waagen ist behoben. \u00d6ffne in der gekoppelten Weboberfl\u00e4che Einstellungen \u2192 Software-Updates und w\u00e4hle Jetzt pr\u00fcfen, dann Jetzt aktualisieren.",
+      "revision": 1,
+      "severity": "info",
+      "starts_at": "",
+      "title": "Shotdeck 0.2.14",
+      "title_de": "Shotdeck 0.2.14"
     }
   ],
   "product": "shotdeck",
   "schema_version": 1,
-  "sequence": 36,
+  "sequence": 37,
   "signature": {
     "algorithm": "ed25519",
     "key_id": "ca5997ea0fbfabe2",
-    "value": "A+R9CEykKLsBXzSfQItswONLFlXDHrSUiVLwaZx66PJfjKGECxKqutGJpG+RCFenuic5TMhpVcWL+SG/82eNDQ=="
+    "value": "JsazOdKG4gDIMvFbfcUcrC5bnSrmx8DmR6zSsm0doa6lOXWqoJYiRyQR5aGX5YyyV7nu5XqJMA7d7XuZ1j0ACw=="
   },
   "trust_epoch": 1,
-  "valid_until": "2026-12-27T07:04:11Z"
+  "valid_until": "2026-12-29T17:31:09Z"
 }
